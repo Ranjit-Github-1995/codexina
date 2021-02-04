@@ -1,0 +1,6049 @@
+/* Responsive nav css */
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1024px) {
+    .main_head .navbar-nav .clickD {
+        position: absolute;
+        right: -5px;
+        top: 50%;
+        width: 10px;
+        height: 5px;
+        border-top: 5px solid #fff;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        cursor: pointer;
+        display: block;
+        background-size: 10px;
+        z-index: 9999;
+        transform: translateY(-50%);
+    }
+    .main_head ul.navbar-nav li .clickD+.sub-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: absolute;
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 991px) {
+    ._header.only_mobile{
+        float: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_head .navbar-nav .clickD {
+        top: 25px;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: relative;
+        top: 100%;
+    }
+}
+
+/* Responsive nav end */
+
+@media only screen and (min-width: 1876px){
+    
+    .we_are .tab_right_content{
+        height: 597px;
+    }
+    
+}
+
+@media only screen and (min-width: 1435px) and (max-width: 1875px){
+    .we_are .left_fullscreen_image{
+        width: 32%;
+    }
+    .we_are .tab_right_content{
+        height: 597px;
+    }
+    .our_service .service_outer_box.core_value_fourbox .service_blue_box.hight_ad{
+        height: 570px;
+    }
+}
+
+@media only screen and (min-width: 1379px) and (max-width: 1424px){
+    
+    .contact.contact_inner ul.bottom_add li.bottom_address .contact_inner_icon{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1193px){
+    
+    .top_nav .mobile_logo{
+        display: none;
+    }
+    .none_of_desktop{
+        display: none;
+    }
+    .small_screen{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1193px) and (max-width: 1434px){
+    .top_header .top_header_social{
+        padding-left: 54%;
+    }
+    .navbar li a{
+        padding: 35px 10px;
+    }
+    .top_slider .captionBox h5{
+        line-height: 60px;
+        padding-top: 50px;
+        font-size: 60px;
+    }
+    .top_slider .captionBox h1{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .top_slider .captionBox p{
+        width: 56%;
+        padding-bottom: 17px;
+    }
+    .we_are .left_fullscreen_image{
+        width: 100%;
+        float: none;
+        height: 100%;
+    }
+    .we_are .tab_right_content{
+        padding-bottom: 45px;
+    }
+    .we_are .tab_right_content .who_click_tab{
+        margin-top: 0px;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li{
+        padding-bottom: 7px;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(2n){
+        width: 10%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(3n){
+        width: 16%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(4n){
+        width: 10%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(5n){
+        width: 13%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(6n) {
+	   width: 7%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(7n){
+        width: 15%;
+    }
+    .our_service .service_outer_box.core_value_fourbox .service_blue_box.hight_ad{
+        height: 640px;
+        padding: 34px 0 30px 0;
+    }
+    .ceo ul .slick-prev{
+        left: 0px;
+    }
+    .ceo ul .slick-next{
+        right: 0px;
+    }
+    .v_added ul .slick-prev{
+        left: 0px;
+    }
+    .v_added ul .slick-next{
+        right: 0px;
+    }
+    .footer h5.followus{
+        padding-left: 100px;
+    }
+    .footer ul.footer_social{
+        padding-left: 100px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box h6{
+        height: 130px;
+    }
+    .freezone ul li .two_box{
+        width: 47%;
+    }
+    .freezone ul .slick-prev{
+        margin-top: 30%;
+        left: 77%;
+    }
+    .freezone ul .slick-next{
+        margin-top: 30%;
+        right: 85px;
+    }
+    .business_service .servicbox .service_contentbox p{
+        height: 119px;
+    }
+    .pro_fourbox .inner_four_box p{
+        height: 98px;
+    }
+    
+}
+
+@media only screen and (min-width: 1310px) and (max-width: 1435px){
+    
+    .freezone ul .slick-prev {
+	   margin-top: 25%;
+	   left: 77%;
+    }
+    .freezone ul .slick-next{
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (min-width: 1193px) and (max-width: 1378px){
+    
+    .contact.contact_inner .right_contact ul li:nth-child(2n){
+        width: 100%;
+        margin-right: 0px;
+    }
+    .contact.contact_inner .right_contact ul li:nth-child(3n){
+        width: 100%;
+    }
+    .contact.contact_inner ul li.bottom_address{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 1232px) and (max-width: 1296px){
+    
+    .our_service .service_outer_box .service_blue_box p{
+        height: 422px;
+    }
+    .our_service .service_outer_box .service_blue_box h5{
+        font-size: 18px;
+    }
+    
+}
+
+@media only screen and (min-width: 1193px) and (max-width: 1402px){
+    
+    .service_package .package_outer .shape{
+        clip-path:polygon(50.31% 92.13%, 0px 48.61%, 0px 0px, 100.36% 0px, 101.08% 49.78%)
+    }
+    .service_package .package_outer .shape p{
+        padding: 35px 0 80px 0;
+    }
+    .service_package .package_outer a.pin_k{
+        margin-top: 48px;
+    }
+    .service_package .package_outer .price_list ul li:nth-child(4n) p{
+        width: 67%;
+    }
+    @media only screen and (min-width: 1220px) and (max-width: 1402px){
+    .service_package .package_outer a.pin_k{
+        margin-top: 5px;
+    }
+    }
+    @media only screen and (min-width: 1260px) and (max-width: 1279px){
+        .service_package .package_outer a.sky_blue{
+            margin-top: 48px;
+        }
+        .service_package .package_outer .shape{
+            height: 240px;
+        }
+    }
+    @media only screen and (min-width: 1280px) and (max-width: 1402px){
+       
+        .service_package .package_outer .shape{
+            height: 231px;
+        }
+        .service_package .package_outer a.sky_blue{
+            margin-top: 50px;
+        }
+        .service_package .package_outer a.pin_k{
+            margin-top: 50px;
+        }
+    }
+    @media only screen and (min-width: 1306px) and (max-width: 1402px){
+        .service_package .package_outer .price_list ul li p{
+            width: 86%;
+        }
+        .service_package .package_outer a.sky_blue{
+            margin-top: 26px;
+        }
+        .service_package .package_outer a.pin_k{
+            margin-top: 26px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1398px) and (max-width: 1402px){
+    
+    .about_inner .left_about_content .our_mission::after{
+        height: 34px;
+        top: 13%;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        bottom: 49.5%;
+        height: 86px;
+    }
+}
+
+@media only screen and (min-width: 1344px) and (max-width: 1397px){
+    
+    .about_inner .left_about_content .our_mission::after{
+        height: 34px;
+        top: 12%;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        bottom: 52%;
+        height: 86px;
+    }
+}
+
+@media only screen and (min-width: 1299px) and (max-width: 1343px){
+    
+    .about_inner .left_about_content .our_mission::after{
+        height: 31px;
+        top: 12%;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        height: 111px;
+    }
+}
+
+@media only screen and (min-width: 1254px) and (max-width: 1298px){
+    
+    .about_inner .left_about_content .our_mission::after{
+        height: 36px;
+        top: 11%;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        height: 110px;
+        bottom: 51.9%;
+    }
+    
+}
+@media only screen and (min-width: 1193px) and (max-width: 1253px){
+    
+    .about_inner .left_about_content .our_mission::after{
+        height: 59px;
+        top: 11%;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        height: 110px;
+        bottom: 49.9%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    ._tab_mode{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .desktop_mode_off{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    ._tab_mode{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1192px){
+    
+    /*************************************
+        IMAS home page responsive start
+    **************************************/
+    
+    /********** Top Header sec start **********/
+    
+    .top_header .top_contact ul li:first-child{
+        width: 50%;
+    }
+    .top_header .top_header_social{
+        padding-left: 47%;
+    }
+    .top_header .top_contact{
+        margin-bottom: 20px;
+    }
+    
+    /********** Top Header sec end ************/
+    
+    /********** Top nav sec start ************/
+    
+    .top_nav .get_contact{
+        display: none;
+    }
+    .navbar li{
+        padding: 0 13px;
+    }
+    .navbar li a{
+        padding: 20px 10px;
+    }
+    .top_nav .mobile_logo{
+        display: none;
+    }
+    .top_nav .header_logo img{
+        width: 70%;
+        padding: 10px 0;
+    }
+    .navbar .navbar-nav > li{
+        height: 69px;
+    }
+    
+    /********** Top nav sec start ************/
+    
+    /********** Top slider sec start ************/
+    
+    .top_slider .captionBox h5{
+        line-height: 46px;
+        padding-top: 50px;
+        font-size: 43px;
+    }
+    .top_slider .captionBox h1{
+        font-size: 47px;
+        line-height: 65px;
+    }
+    #camera_wrap_2{
+        height: 497px !important;
+    }
+    .top_slider .captionBox p{
+        color: #161617;
+        padding-bottom: 13px;
+    }
+    .camera_wrap .camera_pag .camera_pag_ul{
+        display: none;
+    }
+    .top_slider .captionBox a{
+        padding: 16px 35px;
+    }
+    
+    /********** Top slider sec end **************/
+    
+    /*********  About IMAS sec start ************/
+    
+    .about_imas{
+        margin-top: 70px;
+    }
+    .about_imas .about_left_con h5{
+        font-size: 34px;
+    }
+    .about_imas .about_left_con p{
+        padding-top: 15px;
+    }
+    .about_imas .about_right_pic{
+        margin-left: 30px;
+    }
+    
+    /*********  About IMAS sec end **************/
+    
+    
+    /*********  Our services sec start **************/
+    
+    .our_service{
+        margin-top: 70px;
+    }
+    .our_service h2{
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+    .our_service p{
+        width: 70%;
+    }
+    .our_service .service_outer_box{
+        padding-top: 40px; 
+    }
+    .our_service .service_outer_box .service_blue_box h5{
+        font-size: 18px;
+        line-height: 30px;
+        width: 77%;
+        margin: 0px auto !important;
+        padding-bottom: 8px;
+    }
+    .our_service .service_outer_box .service_blue_box p{
+        height: 478px;
+        padding-bottom: 0px;
+    }
+    a.more_services{
+        margin: 0px auto 30px auto;
+    }
+    
+    /*********  Our services sec end ****************/
+    
+    
+    /*********  Package sec start ****************/
+    
+    .package{
+        margin-top: 70px;
+    }
+    .package h2{
+        padding-bottom: 15px;
+    }
+    .package p{
+        width: 60%;
+    }
+    .package .package_box_outer{
+        padding-top: 60px;
+    }
+    .package .package_box_outer .plan .starter::after{
+        left: 25%;
+        bottom: -25px;
+    }
+    .package .package_box_outer .plan ul{
+        padding: 10px 7px 0 7px;
+    }
+    .package .package_box_outer .plan ul li{
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+    .package .package_box_outer .plan p{
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .package .package_box_outer .plan .starter h6{
+        font-size: 25px;
+    }
+    .package .package_box_outer .plan .starter h6{
+        padding: 25px 0;
+    }
+    .package .package_box_outer .plan{
+        padding-bottom: 25px;
+    }
+    .package .package_box_outer .plan .starter{
+        margin-bottom: 35px;
+    }
+    
+    
+    /*********  Package sec end ******************/
+    
+    /*********  Center address sec start *********/
+    
+    .center_address{
+        margin-top: 70px;
+    }
+    .center_address ul{
+        padding-left: 0px;
+    }
+    
+    /*********  Center address sec end ***********/
+    
+    /********* Testmonial sec start **************/
+    
+    .testmonial{
+        margin-top: 70px;
+    }
+    .testmonial h2{
+        padding-bottom: 25px;
+    }
+    .testmonial .test_card{
+        padding-top: 25px;
+    }
+    .testmonial .test_card img{
+        width: 6%;
+        padding-bottom: 20px;
+    }
+    .testmonial .test_card p{
+        width: 85%;
+    }
+    .testmonial .clint{
+        width: 110px;
+        height: 110px;
+    }
+    
+    /********* Testmonial sec end ****************/
+    
+    /********* Contact sec start *****************/
+    
+    .contact{
+        padding-top: 0px;
+        margin-top: 50px;
+    }
+    
+    /********* Contact sec end *******************/
+    
+    /*********  Footer sec start ****************/
+    
+    .footer{
+        padding-top: 70px;
+    }
+    .footer h5{
+        padding-left: 35px;
+    }
+    .footer ul:nth-child(2n){
+        padding-left: 35px;
+    }
+    .footer h5.followus{
+        padding-left: 35px;
+    }
+    
+    
+    /*********  Footer sec end ******************/
+    
+    
+    /*********  Copyright sec start ******************/
+    
+    .copyright ul{
+        margin-right: 5%;
+    }
+    
+    /*********  Copyright sec end ********************/
+    
+    /*************************************
+        IMAS home page responsive end
+    **************************************/
+    
+    /********************************************
+        Contact us inner page Responsive start
+    *********************************************/
+    
+    .contact.contact_inner .right_contact{
+        padding: 0px;
+    }
+    .contact.contact_inner .right_contact ul li{
+        width: 100% !important;
+        margin-right: 0px;
+    }
+    .contact.contact_inner .right_contact h5{
+        padding-top: 20px;
+    }
+    .contact.contact_inner ul.bottom_add{
+        padding-left: 0px;
+    }
+    .contact.contact_inner ul li.bottom_address{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contact.contact_inner .contact_left_clint{
+        height: 100%;
+    }
+    .contact.contact_inner{
+        margin-bottom: 50px;
+    }
+    
+    /********************************************
+        Contact us inner page Responsive end
+    *********************************************/
+    
+    /********************************************
+        About us inner page Responsive start
+    *********************************************/
+    
+    /*********** About us inner sec start *************/
+    
+    .about_inner{
+        margin-top: 70px;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        display: none;
+    }
+    .about_inner .left_about_content .our_mission::after{
+        display: none;
+    }
+
+    .none_of_desktop{
+        display: none;
+    }
+    .top_header.top_bg h2{
+        font-size: 52px;
+    }
+    
+    /*********** About us inner sec end ***************/
+    
+    /*********** We are sec start *********************/
+    
+    .we_are{
+        margin-top: 70px;
+    }
+    .we_are .left_fullscreen_image{
+        width: 100%;
+        float: none;
+        height: 100%;
+    }
+    .we_are .tab_right_content{
+        padding-bottom: 45px;
+    }
+    .we_are .tab_right_content .who_click_tab{
+        margin-top: 0px;
+    }
+    .we_are .tab_right_content .outer_tab_area{
+        width: 96%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li{
+        padding-bottom: 7px;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(2n){
+        width: 10%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(3n){
+        width: 16%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(4n){
+        width: 10%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(5n){
+        width: 13%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(6n) {
+	   width: 7%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(7n){
+        width: 15%;
+    }
+    .our_service .service_outer_box.core_value_fourbox .service_blue_box.hight_ad{
+        height: 740px;
+        padding: 34px 0 30px 0;
+    }
+    .ceo ul .slick-prev{
+        left: 0px;
+    }
+    .ceo ul .slick-next{
+        right: 0px;
+    }
+    .v_added ul .slick-prev{
+        left: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .v_added ul .slick-next{
+        right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .v_added ul .slick-prev::before{
+        padding: 25px;
+    }
+    .v_added ul .slick-next::before{
+        padding: 25px;
+    }
+    
+    /*********** We are sec end ***********************/
+    
+    /*********** Our merits sec start *****************/
+    
+    .merits h2{
+        padding-bottom: 15px;
+    }
+    .merits .merits_content ul li{
+        padding-bottom: 20px;
+    }
+    
+    /*********** Our merits sec end *******************/
+    
+    /*********** CEO sec start ************************/
+    
+    .ceo{
+        margin-top: 30px;
+    }
+    .ceo ul li .ceo_message p{
+        padding-top: 30px;
+    }
+    
+    /*********** CEO sec end **************************/
+    
+    /********************************************
+        About us inner page Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog sec Responsive start
+    ********************************************/
+    
+    .blog{
+        margin-top: 70px;
+    }
+    .blog .blog_box .blog_cap h3{
+        font-size: 18px;
+    }
+    .blog .blog_box .blog_cap ul li{
+        padding-bottom: 10px;
+    }
+    .blog ul.pagi{
+        margin: 45px 0;
+    }
+    /*.blog .blog_box .blog_image img{
+        width: 100%;
+    }*/
+    .blog .blog_center_pad{
+        padding: 0 15px;
+    }
+    .blog .blog_right_pad{
+        padding: 0 15px;
+    }
+    .blog .blog_box .blog_cap{
+        padding: 30px 20px;
+    }
+    
+    /********************************************
+        Our Blog sec Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog Detail Responsive start
+    ********************************************/
+    
+    .blog_detail{
+        padding-top: 70px;
+    }
+    .blog_detail .left_detail{
+        margin-bottom: 70px;
+    }
+    .blog_detail .left_detail h5{
+        line-height: 38px;
+    }
+    .blog_detail .left_detail .blog_con .bigg img{
+        padding-bottom: 15px;
+        height: 100%;
+    }
+    .blog_detail .left_detail .blog_con h5{
+        padding-top: 6px;
+        padding-bottom: 15px;
+    }
+    .blog_detail .left_detail .blog_con ul li{
+        padding-bottom: 13px;
+    }
+    
+    /********************************************
+        Our Blog Detail Responsive end
+    ********************************************/
+    
+    /*******************************************
+        Business Setup in UAE Responsive start
+    *******************************************/
+    
+    .business{
+        padding-top: 70px;
+    }
+    .business .right_our_service .select_service_sec ul li{
+        padding: 14px 0px 14px 15px;
+    }
+    .business .right_our_service .select_service_sec ul li a{
+        font-size: 14px;
+    }
+    .business .business_left_zone .top_big_image{
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .business .business_left_zone h5{
+        font-size: 28px;
+        padding-bottom: 7px;
+    }
+    .business .business_left_zone p.small_heding{
+        font-size: 18px;
+        line-height: 36px;
+        padding-bottom: 0px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box{
+        padding: 30px 15px 0px 15px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box h6{
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box a{
+        padding: 10px 35px;
+    }
+    .business .business_left_zone .inner_service_box{
+        padding-bottom: 40px;
+    }
+    .business_service{
+        margin-top: 70px;
+    }
+    .business_service h2{
+        padding-bottom: 2px;
+    }
+    .business_service p{
+        width: 60%;
+        padding-bottom: 28px;
+    }
+    .business_service .servicbox ._imagebox{
+        height: 190px;
+        margin-bottom: 25px;
+    }
+    .business_service .servicbox .service_contentbox h5{
+        font-size: 18px;
+        width: 90%;
+        height: 70px;
+    }
+    .business_service .servicbox .service_contentbox p{
+        padding-bottom: 17px;
+    }
+    .freezone{
+        margin: 70px 0;
+    }
+    .freezone ul{
+        margin-left: 36%;
+    }
+    .freezone ul li .two_box{
+        width: 50%;
+    }
+    .freezone ul li .two_box ul li{
+        font-size: 14px;
+    }
+    .freezone ul .slick-prev{
+        margin-top: 42%;
+        left: 70%;
+    }
+    .freezone ul .slick-next{
+        margin-top: 42%;
+    }
+    .small_screen{
+        display: none;
+    }
+    @media only screen and (min-width: 1050px) and (max-width: 1115px){
+        
+        .freezone ul .slick-prev{
+        margin-top: 37%;
+        left: 70%;
+    }
+    .freezone ul .slick-next{
+        margin-top: 37%;
+    }
+    }
+    @media only screen and (min-width: 1115px) and (max-width: 1192px){
+        
+        .freezone ul .slick-prev{
+        margin-top: 30%;
+        left: 73%;
+    }
+    .freezone ul .slick-next{
+        margin-top: 30%;
+    }
+    }
+    
+    /*******************************************
+        Business Setup in UAE Responsive end
+    *******************************************/
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive start
+    ******************************************************/
+    
+    .dubai_freezone{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .dubai_freezone h5{
+        padding-bottom: 20px;
+    }
+    .dubai_freezone p{
+        padding-bottom: 15px;
+    }
+    .dubai_freezone .freezone_list{
+        padding-top: 25px;
+    }
+    .freezone_limit h5{
+        padding-bottom: 25px;
+    }
+    .freezone_limit p{
+        padding-bottom: 20px;
+    }
+    .freezone_limit h6{
+        padding-top: 0px;
+    }
+    
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive end
+    ******************************************************/
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive start
+    *****************************************************************/
+    
+    .llc_detail{
+        margin-top: 70px;
+    }
+    .llc_detail p{
+        padding-bottom: 15px;
+    }
+    .llc_detail p:last-child{
+        padding-bottom: 70px;
+    }
+    .llc_company p{
+        width: 60%;
+    }
+    .llc_company .company_info .company_detail_content{
+        padding: 12px 30px;
+    }
+    .llc_company .company_info{
+        margin-bottom: 0px;
+    }
+    .moreover{
+        margin-top: 70px;
+    }
+    .moreover h2{
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive end
+    *****************************************************************/
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    .business .business_left_zone .lets_talk{
+        padding-left: 0px;
+        width: 80%;
+    }
+    .business .business_left_zone .lets_talk h6{
+        padding: 15px 0 20px 0;
+    }
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    /********************************************
+        Ajman Offshore Responsive start
+    ********************************************/
+    
+    .ajman{
+        padding: 70px 0;
+        background-size: auto;
+    }
+    
+    /********************************************
+        Ajman Offshore Responsive end
+    ********************************************/
+    
+    /********************************************
+        Offshore Overview Responsive start
+    ********************************************/
+    
+    .business .business_left_zone .list_advantage{
+        padding-bottom: 70px;
+    }
+    .off_service{
+        margin-bottom: 70px;
+    }
+    .off_service .overview_caption p{
+        width: 95%;
+    }
+    
+    /********************************************
+        Offshore Overview Responsive end
+    ********************************************/
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive start
+    ******************************************************/
+    
+    .family_visa{
+        padding: 70px 0 50px 0;
+    }
+    .family_visa .top_big_image{
+        height: 450px;
+    }
+    .family_visa p{
+        padding-bottom: 30px;
+    }
+    .family_visa h6{
+        padding-top: 0px;
+    }
+    .business_service.offshore_page.family_visa_inner_service{
+        padding-bottom: 70px;
+    }
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive end
+    ******************************************************/
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    .pro_fourbox{
+        margin: 70px 0 0 0; 
+    }
+    .pro_fourbox .inner_four_box p{
+        width: 88%;
+        height: 154px;
+    }
+    .business_service.PRO_business_services{
+        padding-bottom: 70px;
+    }
+    .business.PRO_business_diamond_bg{
+        padding-bottom: 70px;
+    }
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    /***********************************
+        Package  Responsive start
+    ***********************************/
+    
+    .package_set_up{
+        padding: 70px 0;
+    }
+    .service_package{
+        margin-top: 60px;
+    }
+    .service_package h2{
+        padding-bottom: 20px;
+    }
+    .service_package .package_outer{
+        height: 925px;
+    }
+    .service_package .package_outer .shape p{
+        font-size: 22px;
+        padding: 35px 0 70px 0;
+        line-height: 32px;
+    }
+    .service_package .package_outer .shape{
+        height: 210px;
+    }
+    .service_package .package_outer .price_list span{
+        font-size: 25px;
+        padding: 0 0 30px 0;
+    }
+    .service_package .package_outer .price_list ul li p{
+        width: 84%;
+    }
+    .service_package .package_outer .price_list{
+        padding: 0 15px;
+    }
+    .service_package .package_outer .price_list ul li:nth-child(4n) p{
+        width: 60%;
+    }
+    .service_package .package_outer a.pin_k{
+        margin: 91px auto auto auto;
+    }
+    @media only screen and (min-width: 1135px) and (max-width: 1170px){
+        
+    .service_package .package_outer a.pin_k{
+        margin: 70px auto auto auto;
+    }
+    .service_package .package_outer{
+        height: 903px;    
+    }
+        
+    }
+    @media only screen and (min-width: 1171px) and (max-width: 1192px){
+    .service_package .package_outer a.pin_k{
+        margin: 30px auto auto auto;
+    }
+    .service_package .package_outer{
+        height: 860px;    
+    }
+        
+    }
+    
+    
+    /***********************************
+        Package  Responsive end
+    ***********************************/
+    
+    /***********************************
+        FAQ  Responsive start
+    ***********************************/
+    
+    .faq{
+        padding: 70px 0;
+    }
+    .accordion-body__contents{
+        padding: 30px 0 35px 50px
+    }
+    
+    /***********************************
+        FAQ  Responsive end
+    ***********************************/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+    /*************************************
+        IMAS home page responsive start
+    **************************************/
+    
+        #social-sidebar a{
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        padding: 7px 0;
+    }
+    
+    /********** Top Header sec start **********/
+    
+    .top_header{
+        top: 15px;
+    }
+    .top_header .top_contact ul li:first-child{
+        width: 66%;
+        
+    }
+    .top_header .top_contact ul li:nth-child(2n){
+        margin-bottom: 10px;
+        
+    }
+
+    .top_header .top_header_social{
+        padding-left: 2%;
+    }
+    .top_header .top_contact{
+        margin-bottom: 10px;
+    }
+    
+    /********** Top Header sec end ************/
+    
+    /********** Top nav sec start ************/
+    
+    .top_nav .get_contact{
+        display: none;
+    }
+    .navbar li{
+        padding: 0 13px;
+    }
+    .navbar li a{
+        padding: 35px 10px;
+    }
+    .top_nav{
+        padding-left: 0px;
+        background: none;
+    }
+    .top_nav .header_logo img{
+        width: 65%;
+        padding: 6px 0;
+        float: left;
+    }
+    .navbar-toggler-icon .bar{
+        background: #fff;
+    }
+    .navbar li a:hover{
+        border-bottom: 0px;
+        color: #0637a4;
+    }
+    .navbar li a.active{
+        border-bottom: 0px;
+        color: #0637a4;
+    }
+    .navbar-collapse{
+        background: #1494ff; 
+    }
+    .navbar li a{
+        color: #fff;
+        padding: 15px 7px;
+        text-align: left;
+    }
+    ._mob-menu-hdr{
+        text-align: left;
+        padding: 10px 20px;
+    }
+    .top_nav .mobile_logo{
+        display: none;
+    }
+    
+    
+    /********** Top nav sec start ************/
+    
+    /********** Top slider sec start ************/
+    
+    .top_slider .captionBox h5{
+        line-height: 55px;
+        padding-top: 0px;
+        font-size: 43px;
+    }
+    #camera_wrap_2{
+        height: 384px !important;
+    }
+    .top_slider .captionBox h1{
+        font-size: 47px;
+        line-height: 60px;
+    }
+    .top_slider .captionBox p{
+        padding-bottom: 5px;
+        color: #445163;
+        font-size: 14px;
+        line-height: 28px;
+        width: 80%;
+
+    }
+    .camera_wrap .camera_pag .camera_pag_ul{
+        display: none;
+    }
+    .top_slider .captionBox a{
+        padding: 13px 22px;
+    }
+    .top_slider .camera_prev{
+        left: 5%;
+        top: 58%;
+    }
+    .top_slider .camera_next{
+        top: 58%;
+        right: 5%;
+    }
+    .top_slider .camera_prev, .camera_next{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .top_slider .camera_prev > span, .camera_next > span{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .top_slider .camera_prev > span{
+        background-size: 35%;
+    }
+    .top_slider .camera_next > span{
+        background-size: 35%;
+    }
+    
+    /********** Top slider sec end **************/
+    
+    /*********  About IMAS sec start ************/
+    
+    .about_imas{
+        margin-top: 50px;
+    }
+    .about_imas .about_left_con h5{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .about_imas .about_left_con p{
+        padding-top: 8px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .about_imas .about_right_pic{
+        margin-left: 0px;
+    }
+    .about_imas .about_left_con h5 span{
+        font-size: 30px;
+    }
+    .about_imas .about_left_con a{
+        margin-top: 15px;
+        padding: 13px 9px;
+    }
+    
+    /*********  About IMAS sec end **************/
+    
+    
+    /*********  Our services sec start **************/
+    
+    .our_service{
+        margin-top: 50px;
+    }
+    .our_service h2{
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .our_service p{
+        width: 70%;
+    }
+    .our_service .service_outer_box{
+        padding-top: 40px; 
+    }
+    .our_service .service_outer_box .service_blue_box h5{
+        font-size: 17px;
+        padding: 15px 0;
+    }
+    .our_service .service_outer_box .service_blue_box p{
+        height: auto;
+    }
+    a.more_services{
+        margin: 40px auto;
+        padding: 13px 15px;
+    }
+    .our_service .service_outer_box .service_blue_box{
+        height: 94%;
+        padding: 30px 0;
+    }
+    
+    /*********  Our services sec end ****************/
+    
+    
+    /*********  Package sec start ****************/
+    
+    .package{
+        margin-top: 50px;
+    }
+    .package h2{
+        padding-bottom: 15px;
+    }
+    .package p{
+        width: 75%;
+    }
+    .package .package_box_outer{
+        padding-top: 40px;
+    }
+    .package .package_box_outer .plan .starter::after{
+        left: 34%;
+        bottom: -25px;
+    }
+    .package .package_box_outer .plan{
+        margin-bottom: 20px;
+    }
+    .package .package_box_outer .plan:last-child{
+        margin-bottom: 0px;
+    }
+    
+    /*********  Package sec end ******************/
+    
+    /*********  Center address sec start *********/
+    
+    .center_address{
+        margin-top: 50px;
+    }
+    .center_address ul{
+        padding-left: 0px;
+    }
+    .center_address ul li:first-child{
+        width: 65%;
+    }
+    .center_address ul li{
+        padding: 20px 0;
+    }
+    .center_address ul li:last-child{
+        padding-top: 0px;
+    }
+    
+    /*********  Center address sec end ***********/
+    
+    /********* Testmonial sec start **************/
+    
+    .testmonial{
+        margin-top: 50px;
+    }
+    .testmonial h2{
+        padding-bottom: 25px;
+    }
+    .testmonial .test_card{
+        padding-top: 25px;
+    }
+    .testmonial .test_card img{
+        width: 6%;
+        padding-bottom: 20px;
+    }
+    .testmonial .test_card p{
+        width: 90%;
+    }
+    .testmonial .clint{
+        width: 100px;
+        height: 100px;
+    }
+    
+    /********* Testmonial sec end ****************/
+    
+    /*********  Contact us sec start *************/
+    
+    .contact{
+        margin-top: 0px;
+    }
+    .contact .left_map{
+        margin-top: 0px;
+    }
+    .contact .left_map{
+        height: 100%;
+    }
+    .contact .left_map iframe{
+        height: 100%;
+    }
+    .contact .no_padding{
+        padding-right: 0px;
+        padding-left: 15px;
+    }
+    .contact .no_padding:nth-child(2n){
+        padding-right: 15px;
+        padding-left: 0px;
+    }
+    .contact .right_contact{
+        padding: 28px 20px;
+    }
+    
+    /*********  Contact us sec end ***************/
+    
+    /*********  Footer sec start ****************/
+    
+    .footer{
+        padding-top: 50px;
+    }
+    .footer h5{
+        padding-left: 0px;
+        font-size: 22px;
+    }
+    .footer ul:nth-child(2n){
+        padding-left: 0px;
+    }
+    .footer h5.followus{
+        padding-left: 0px;
+    }
+    
+    
+    /*********  Footer sec end ******************/
+    
+    
+    /*********  Copyright sec start ******************/
+    
+    .copyright ul{
+        margin-right: 5%;
+    }
+    
+    /*********  Copyright sec end ********************/
+    
+    /*************************************
+        IMAS home page responsive end
+    **************************************/
+    
+    /********************************************
+        Contact us inner page Responsive start
+    *********************************************/
+    
+    .top_header.top_bg h2{
+        padding: 20px 0 50px 0;
+        font-size: 46px;
+    }
+    .contact.contact_inner .right_contact{
+        padding: 0px;
+    }
+    .contact.contact_inner .right_contact ul li{
+        width: 100% !important;
+        margin-right: 0px;
+    }
+    .contact.contact_inner .right_contact h5{
+        padding-top: 20px;
+    }
+    .contact.contact_inner ul.bottom_add{
+        padding-left: 0px;
+    }
+    .contact.contact_inner ul li.bottom_address{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contact.contact_inner .contact_left_clint{
+        height: 100%;
+    }
+    .contact.contact_inner{
+        margin-bottom: 30px;
+    }
+    
+    /********************************************
+        Contact us inner page Responsive end
+    *********************************************/
+    
+    /********************************************
+        About us inner page Responsive start
+    *********************************************/
+    
+    /*********** About us inner sec start *************/
+    
+    .about_inner{
+        margin-top: 50px;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        display: none;
+    }
+    .about_inner .left_about_content .our_mission::after{
+        display: none;
+    }
+    .about_inner .about_inner_right_image{
+        margin-top: 15px;
+    }
+    .about_inner .left_about_content .our_mission:last-child .leftiocn{
+        margin-top: 15px;
+    }
+    .about_inner .mobile_bottom{
+        display: none;
+    }
+    .about_inner .mobile_top{
+        display: none;
+    }
+    .about_inner .left_about_content{
+        margin-top: 35px;
+    }
+    
+    /*********** About us inner sec end ***************/
+    
+    /*********** We are sec start *********************/
+    
+    .we_are{
+        margin-top: 50px;
+    }
+    .we_are .left_fullscreen_image{
+        width: 100%;
+        float: none;
+        height: 100%;
+    }
+    .we_are .tab_right_content{
+        padding: 40px 35px;
+    }
+    .we_are .tab_right_content .outer_tab_area{
+        width: 100%;
+    }
+    .we_are .tab_right_content .who_click_tab ul li a{
+        font-size: 12px;
+    }
+    .we_are .tab_right_content .who_click_tab{
+        margin-top: 0px;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li{
+        padding-bottom: 7px;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(2n){
+        width: 10%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(3n){
+        width: 16%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(4n){
+        width: 10%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(5n){
+        width: 13%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(6n) {
+	   width: 7%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(7n){
+        width: 15%;
+    }
+    .our_service .service_outer_box.core_value_fourbox .service_blue_box.hight_ad{
+        height: 500px;
+        padding: 30px 0 30px 0;
+    }
+    .ceo ul .slick-prev{
+        left: 0px;
+    }
+    .ceo ul .slick-next{
+        right: 0px;
+    }
+    .v_added ul .slick-prev{
+        left: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .v_added ul .slick-next{
+        right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .v_added ul .slick-prev::before{
+        padding: 25px;
+    }
+    .v_added ul .slick-next::before{
+        padding: 25px;
+    }
+    
+    /*********** We are sec end ***********************/
+    
+    /*********** Our merits sec start *****************/
+    
+    .merits{
+        margin-top: 50px;
+    }
+    .merits h2{
+        padding-bottom: 15px;
+    }
+    .merits .merits_content ul li{
+        padding-bottom: 20px;
+    }
+    .merits .merits_content ul li:last-child{
+        padding-bottom: 0px;
+    }
+    .merits .merits_content{
+        padding-left: 30px;
+    }
+    .merits .merits_content ul li img{
+        margin-bottom: 22px;
+    }
+    
+    /*********** Our merits sec end *******************/
+    
+    /*********** CEO sec start ************************/
+    
+    .ceo{
+        margin-top: 30px;
+    }
+    .ceo ul li .ceo_message p{
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    
+    /*********** CEO sec end **************************/
+    
+    /********** Value added service sec start **************/
+    
+    .v_added{
+        padding: 40px 0;
+    }
+    .v_added h2{
+        padding-bottom: 10px;
+    }
+    .v_added p{
+        width: 86%;
+        padding-bottom: 20px;
+    }
+    
+    /********** Value added service sec end ****************/
+    
+    /********************************************
+        About us inner page Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog sec Responsive start
+    ********************************************/
+    
+    .blog{
+        margin-top: 30px;
+    }
+    .blog .blog_box .blog_cap{
+        padding: 20px;
+    }
+    .blog .blog_box .blog_cap h3{
+        font-size: 18px;
+    }
+    .blog .blog_box .blog_cap p{
+        font-size: 14px;
+    }
+    .blog .blog_box .blog_cap ul li{
+        padding-bottom: 10px;
+    }
+    .blog ul.pagi{
+        margin: 40px 0 !important;
+    }
+    .blog .blog_center_pad{
+        padding: 0 15px;
+    }
+    .blog .blog_box .blog_image img{
+        width: 100%;
+        height: 234px;
+    }
+    
+    /********************************************
+        Our Blog sec Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog Detail Responsive start
+    ********************************************/
+    
+    .blog_detail{
+        padding-top: 50px;
+    }
+    .blog_detail .left_detail{
+        margin-bottom: 50px;
+    }
+    .blog_detail .left_detail h5{
+        line-height: 38px;
+        font-size: 28px;
+    }
+    .blog_detail .left_detail p{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .blog_detail .left_detail .blog_con .bigg img{
+        padding-bottom: 15px;
+        height: 245px;
+    }
+    .blog_detail .left_detail .blog_con h5{
+        padding-top: 6px;
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+    .blog_detail .left_detail .blog_con ul li{
+        padding-bottom: 13px;
+    }
+    .blog_detail .right_form{
+        padding: 40px 20px;
+    }
+    .blog_detail .right_form h5{
+        font-size: 18px;
+    }
+    .blog_detail .right_form button{
+        padding: 12px 21px;
+    }
+    
+    /********************************************
+        Our Blog Detail Responsive end
+    ********************************************/
+    
+    /*******************************************
+        Business Setup in UAE Responsive start
+    *******************************************/
+    
+    .business{
+        padding-top: 50px;
+    }
+    .business .right_our_service .select_service_sec ul li{
+        padding: 14px 0px 14px 15px;
+    }
+    .business .right_our_service .select_service_sec ul li a{
+        font-size: 14px;
+    }
+    .business .business_left_zone .top_big_image{
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .business .business_left_zone h5{
+        font-size: 28px;
+        padding-bottom: 7px;
+    }
+    .business .business_left_zone p.small_heding{
+        font-size: 18px;
+        line-height: 36px;
+        padding-bottom: 0px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box{
+        padding: 30px 15px 0px 15px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box h6{
+        padding: 10px 0;
+        font-size: 16px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box a{
+        padding: 10px 35px;
+    }
+    .business .business_left_zone .inner_service_box{
+        padding-bottom: 40px;
+    }
+    .business_service{
+        margin-top: 50px;
+    }
+    .business_service h2{
+        padding-bottom: 2px;
+    }
+    .business_service p{
+        width: 60%;
+        padding-bottom: 28px;
+    }
+    .business_service .servicbox ._imagebox{
+        height: 190px;
+        margin-bottom: 25px;
+    }
+    .business_service .servicbox .service_contentbox h5{
+        font-size: 18px;
+        width: 90%;
+        height: 70px;
+    }
+    .business_service .servicbox .service_contentbox p{
+        padding-bottom: 17px;
+    }
+    .freezone{
+        margin: 50px 0;
+    }
+    .freezone ul{
+        margin-left: 10%;
+    }
+    .freezone ul li .two_box{
+        width: 50%;
+    }
+    .freezone ul li .two_box ul li{
+        font-size: 14px;
+    }
+    .freezone ul .slick-prev{
+        margin-top: 32%;
+        left: 70%;
+    }
+    .freezone ul .slick-next{
+        margin-top: 32%;
+    }
+    ._desktop{
+        display: none;
+    }
+    ._right14{
+        padding-right: 15px !important;
+        margin-bottom: 15px;
+    }
+    ._left0{
+        padding-left: 15px !important;
+    }
+    .freezone ul li{
+        padding-top: 50px;
+    }
+    .business_service .servicbox{
+        margin-bottom: 20px;
+    }
+    @media only screen and (min-width: 820px) and (max-width: 991px){
+        
+    .freezone ul .slick-prev{
+        margin-top: 27%;
+        left: 75%;
+    }
+    .freezone ul .slick-next{
+        margin-top: 27%;
+    }
+        
+    }
+    
+    /*******************************************
+        Business Setup in UAE Responsive end
+    *******************************************/
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive start
+    ******************************************************/
+    
+    .dubai_freezone{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .dubai_freezone h5{
+        padding-bottom: 10px;
+        font-size: 34px;
+    }
+    .dubai_freezone p{
+        padding-bottom: 15px;
+    }
+    .freezone_limit{
+        padding-top: 50px;
+    }
+    .dubai_freezone .freezone_list{
+        padding-top: 10px;
+    }
+    .freezone_limit h5{
+        padding-bottom: 10px;
+        font-size: 34px;
+    }
+    .freezone_limit p{
+        padding-bottom: 20px;
+    }
+    .freezone_limit h6{
+        padding-top: 0px;
+    }
+    .docu .inner_area{
+        padding: 50px 35px 50px 35px;
+    }
+    .docu .inner_area h5{
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+    .docu .inner_area .regi{
+        height: 335px;
+    }
+    .docu .inner_area p.all_of{
+        padding: 0 0 25px 0;
+    }
+    .docu .inner_area .freezone_bottom_sec h6{
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+    .docu{
+        margin-top: 50px;
+    }
+    .dubai_freezone .freezone_slider{
+        padding-bottom: 15px;
+    }
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive end
+    ******************************************************/
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive start
+    *****************************************************************/
+    
+    .llc_detail{
+        margin-top: 50px;
+    }
+    .llc_detail p{
+        padding-bottom: 15px;
+    }
+    .llc_detail p:last-child{
+        padding-bottom: 50px;
+    }
+    .llc_company p{
+        width: 75%;
+        padding-bottom: 25px;
+    }
+    .llc_company .company_info .company_detail_content{
+        padding: 12px 30px;
+    }
+    .llc_detail h5{
+        font-size: 30px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .llc_company h2{
+        font-size: 36px;
+    }
+    .llc_company .company_info .company_imagebox{
+        height: 230px;
+    }
+    .las_t{
+        margin: 0px auto;
+    }
+    .llc_company .company_info{
+        margin-bottom: 30px;
+    }
+    .llc_company .company_info .company_detail_content h6{
+        font-size: 18px;
+    }
+    .llc_detail .right_youtube_sec{
+        height: 350px;
+    }
+    .moreover{
+        margin-top: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .moreover h2{
+        font-size: 28px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive end
+    *****************************************************************/
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    .business .business_left_zone .lets_talk{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .business .business_left_zone .lets_talk h6{
+        padding: 15px 0 20px 0;
+    }
+    .business .business_left_zone .lets_talk button{
+        margin-bottom: 60px;
+    }
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    /********************************************
+        Ajman Offshore Responsive start
+    ********************************************/
+    
+    .ajman{
+        padding: 50px 0;
+        background-size: auto;
+    }
+    .ajman .right_ajman_content h5{
+        font-size: 28px;
+        line-height: 38px;
+        padding-bottom: 5px;
+    }
+    .ajman .right_ajman_content p{
+        line-height: 29px;
+    }
+    
+    /********************************************
+        Ajman Offshore Responsive end
+    ********************************************/
+    
+    /********************************************
+        Offshore Overview Responsive start
+    ********************************************/
+    
+    .business .business_left_zone .list_advantage{
+        padding-bottom: 50px;
+    }
+    .off_service{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .off_service .overview_caption p{
+        width: 100%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .off_service h2{
+        padding-bottom: 50px;
+    }
+    .off_service .overview_imagebox{
+        height: 250px;
+    }
+    
+    /********************************************
+        Offshore Overview Responsive end
+    ********************************************/
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive start
+    ******************************************************/
+    
+    .family_visa{
+        padding: 50px 0 30px 0;
+    }
+    .family_visa .top_big_image{
+        height: 400px;
+        margin-bottom: 50px;
+    }
+    .family_visa p{
+        padding-bottom: 30px;
+    }
+    .family_visa h6{
+        padding-top: 0px;
+    }
+    .family_visa h5{
+        padding-bottom: 15px;
+        font-size: 34px;
+    }
+    .business_service.offshore_page.family_visa_inner_service{
+        padding-bottom: 50px;
+    }
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive end
+    ******************************************************/
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    .pro_fourbox{
+        margin: 50px 0 0 0; 
+    }
+    .pro_fourbox .inner_four_box p{
+        width: 88%;
+        height: auto;
+    }
+    .business_service.PRO_business_services{
+        padding-bottom: 30px;
+        margin-top: 20px;
+    }
+    .business.PRO_business_diamond_bg{
+        padding-bottom: 50px;
+    }
+    .pro_fourbox .inner_four_box{
+        margin-bottom: 30px;
+    }
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    /***********************************
+        Package  Responsive start
+    ***********************************/
+    
+    .package_set_up{
+        padding: 50px 0;
+    }
+    .package_set_up .left_no_padding{
+        padding-left: 15px;
+    }
+    .package_set_up .right_no_padding{
+        padding-right: 15px;
+    }
+    .service_package{
+        margin-top: 50px;
+    }
+    .service_package h2{
+        padding-bottom: 20px;
+    }
+    .service_package .package_outer{
+        height: auto;
+    }
+    .service_package .package_outer .shape p{
+        font-size: 22px;
+        padding: 35px 0 70px 0;
+        line-height: 32px;
+    }
+    .service_package .package_outer .shape{
+        height: 185px;
+    }
+    .service_package .package_outer .price_list span{
+        font-size: 25px;
+        padding: 0 0 30px 0;
+    }
+    .service_package .package_outer .price_list ul li p{
+        width: 80%;
+    }
+    .service_package .package_outer .price_list{
+        padding: 0 15px;
+    }
+    .service_package .package_outer .price_list ul li:nth-child(4n) p{
+        width: 60%;
+    }
+    .service_package .package_outer.pink_border{
+        margin-top: 30px;
+    }
+    .service_package .package_outer.sky_blue_border{
+        margin-top: 30px;
+    }
+    .service_package .right_zero{
+        padding-right: 15px;
+    }
+    .service_package p{
+        padding-bottom: 50px;
+    }
+    
+    
+    /***********************************
+        Package  Responsive end
+    ***********************************/
+    
+    /***********************************
+        FAQ  Responsive start
+    ***********************************/
+    
+    .faq{
+        padding: 50px 0;
+    }
+    .accordion-body__contents{
+        padding: 30px 0 35px 50px
+    }
+    .accordion-header{
+        display: flex;
+    }
+    .accordion-header h6{
+        width: 100%;
+    }
+    
+    /***********************************
+        FAQ  Responsive end
+    ***********************************/
+
+}
+
+@media only screen and (min-width: 641px) and (max-width: 767px){
+    
+    /*************************************
+        IMAS home page responsive start
+    **************************************/
+    
+    #social-sidebar a{
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        padding: 7px 0;
+    }
+    
+    /********** Top Header sec start **********/
+    
+    .top_header{
+        top: 10px;
+    }
+    .top_header .no_contact{
+        display: none;
+    }
+    .top_header .top_contact ul li:first-child{
+        width: 66%;
+        
+    }
+    .top_header .top_contact ul li:nth-child(2n){
+        margin-bottom: 10px;
+        
+    }
+    
+
+    .top_header .top_header_social{
+        padding-left: 2%;
+        display: none;
+    }
+    .top_header .top_contact{
+        margin-bottom: 20px;
+    }
+    .top_header .top_serch{
+        margin-bottom: 20px;
+    }
+    .top_nav .header_logo a.desktop_logo{
+        display: none;
+    }
+    
+    /********** Top Header sec end ************/
+    
+    /********** Top nav sec start ************/
+    
+    .top_nav .get_contact{
+        display: none;
+    }
+    .navbar li{
+        padding: 0 13px;
+    }
+    .navbar li a{
+        padding: 35px 10px;
+    }
+    .top_nav{
+        padding-left: 0px;
+        background: none;
+    }
+    .top_nav .header_logo img{
+        width: 75%;
+        padding: 10px 0;
+    }
+    .navbar-toggler-icon .bar{
+        background: #fff;
+    }
+    .navbar li a:hover{
+        border-bottom: 0px;
+        color: #0637a4;
+    }
+    .navbar li a.active{
+        border-bottom: 0px;
+        color: #0637a4;
+    }
+    .navbar-collapse{
+        background: #1494ff; 
+    }
+    .navbar li a{
+        color: #fff;
+        padding: 15px 7px;
+        text-align: left;
+    }
+    ._mob-menu-hdr{
+        text-align: left;
+        padding: 10px 20px;
+    }
+    
+    
+    /********** Top nav sec start ************/
+    
+    /********** Top slider sec start ************/
+    
+    .top_slider .captionBox h5{
+        line-height: 40px;
+        padding-top: 0px;
+        font-size: 35px;
+    }
+    .top_slider .captionBox{
+        margin-top: -15px;
+    }
+    .top_slider .captionBox h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .top_slider .captionBox p{
+        width: 80%;
+        color: #111;
+        padding-bottom: 8px;
+    }
+    .camera_caption > div{
+        padding: 0 20px;
+    }
+    .camera_wrap .camera_pag .camera_pag_ul{
+        display: none;
+    }
+    .top_slider .captionBox a{
+        padding: 11px 20px;
+    }
+    .top_slider .camera_prev, .camera_next{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .top_slider .camera_prev{
+        left: 5%;
+    }
+    .top_slider .camera_next{
+        right: 6%;
+    }
+    .top_slider .camera_prev > span, .camera_next > span{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .top_slider .camera_prev > span{
+        background-size: 35%;
+    }
+    .top_slider .camera_next > span{
+        background-size: 35%;
+    }
+    
+    /********** Top slider sec end **************/
+    
+    /*********  About IMAS sec start ************/
+    
+    .about_imas{
+        margin-top: 15px;
+    }
+    .about_imas .about_left_con h5{
+        font-size: 34px;
+        line-height: 45px;
+    }
+    .about_imas .about_left_con p{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .about_imas .about_left_con p.about_last_pra{
+        padding-bottom: 30px;
+    }
+    .about_imas .about_right_pic{
+        margin-left: 0px;
+    }
+    .about_imas .about_left_con h5 span{
+        font-size: 40px;
+    }
+    .about_imas .about_left_con a{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    /*********  About IMAS sec end **************/
+    
+    
+    /*********  Our services sec start **************/
+    
+    .our_service{
+        margin-top: 30px;
+    }
+    .our_service h2{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 32px;
+    }
+    .our_service p{
+        width: 80%;
+    }
+    .our_service .service_outer_box{
+        padding-top: 40px; 
+    }
+    .our_service .service_outer_box .service_blue_box h5{
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .our_service .service_outer_box .service_blue_box p{
+        padding-bottom: 15px;
+        height: auto;
+    }
+    a.more_services{
+        margin: 20px auto;
+    }
+    .our_service .service_outer_box .service_blue_box{
+        height: auto;
+        padding: 35px 0 35px 0;
+        margin-bottom: 15px;
+    }
+    .cen_ter{
+        display: block;
+    }
+    
+    /*********  Our services sec end ****************/
+    
+    
+    /*********  Package sec start ****************/
+    
+    .package{
+        margin-top: 30px;
+    }
+    .package h2{
+        padding-bottom: 15px;
+        font-size: 32px;
+    }
+    .package p{
+        width: 90%;
+    }
+    .package .package_box_outer{
+        padding-top: 43px;
+    }
+    .package .package_box_outer .plan .starter::after{
+        left: 40%;
+        bottom: -25px;
+    }
+    .package .package_box_outer .plan{
+        margin-bottom: 20px !important;
+    }
+    .package .package_box_outer .plan:last-child{
+        margin-bottom: 0px;
+    }
+    .package .package_box_outer .plan .starter h6{
+        font-size: 27px;
+        padding: 35px 0;
+    }
+    
+    /*********  Package sec end ******************/
+    
+    /*********  Center address sec start *********/
+    
+    .center_address{
+        margin-top: 30px;
+    }
+    .center_address ul{
+        padding-left: 0px;
+    }
+    .center_address ul li:first-child{
+        width: 100%;
+    }
+    .center_address ul li{
+        padding: 15px 0;
+        float: none;
+        width: 100%;
+    }
+    .center_address ul li a{
+        font-size: 16px;
+    }
+    .center_address ul li:last-child{
+        padding-top: 0px;
+    }
+    .center_address ul li a .fa-map-marker-alt{
+        width: 20px;
+        height: 20px;
+    }
+    .center_address ul li a .fa-envelope{
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
+    }
+    .center_address ul li a .fa-phone-alt{
+        width: 20px;
+        height: 20px;
+    }
+    .center_address ul li:nth-child(2n){
+        padding-top: 0px;
+    }
+    
+    /*********  Center address sec end ***********/
+    
+    /********* Testmonial sec start **************/
+    
+    .testmonial{
+        margin-top: 30px;
+    }
+    .testmonial span{
+        padding-bottom: 5px;
+    }
+    .testmonial h2{
+        padding-bottom: 25px;
+        font-size: 32px;
+    }
+    .testmonial .test_card{
+        padding-top: 25px;
+    }
+    .testmonial .test_card img{
+        width: 6%;
+        padding-bottom: 20px;
+    }
+    .testmonial .test_card p{
+        width: 90%;
+    }
+    .testmonial .clint{
+        width: 100px;
+        height: 100px;
+    }
+    
+    /********* Testmonial sec end ****************/
+    
+    /*********  Contact us sec start *************/
+    
+    .contact{
+        margin-top: 0px;
+    }
+    .contact .left_map{
+        margin-top: 0px;
+    }
+    .contact .left_map{
+        height: 300px;
+    }
+    .contact .left_map iframe{
+        height: 100%;
+    }
+    .contact .no_padding{
+        padding: 0 15px;
+    }
+    .contact .right_contact ul li{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact .right_contact ul li:last-child{
+        margin-bottom: 0px;
+    }
+    .contact .right_contact ul li input[type="text"]{
+        width: 100%;
+    }
+    .contact .right_contact ul li input[type="email"]{
+        width: 100%;
+    }
+    .contact .right_contact ul li textarea{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    /*********  Contact us sec end ***************/
+    
+    /*********  Footer sec start ****************/
+    
+    .footer{
+        padding-top: 50px;
+    }
+    .footer h5{
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+    .footer ul:nth-child(2n){
+        padding-left: 0px;
+    }
+    .footer h5.followus{
+        padding-left: 0px;
+    }
+    
+    
+    /*********  Footer sec end ******************/
+    
+    
+    /*********  Copyright sec start ******************/
+    
+    .copyright ul{
+        margin-right: 5%;
+    }
+    
+    /*********  Copyright sec end ********************/
+    
+    /*************************************
+        IMAS home page responsive end
+    **************************************/
+    
+    /********************************************
+        Contact us inner page Responsive start
+    *********************************************/
+    
+    .top_header.top_bg h2{
+        padding: 20px 0 50px 0;
+        font-size: 40px;
+    }
+    .contact.contact_inner .right_contact{
+        padding: 0px;
+    }
+    .contact.contact_inner .right_contact ul li{
+        width: 100% !important;
+        margin-right: 0px;
+    }
+    .contact.contact_inner .right_contact h5{
+        padding-top: 20px;
+    }
+    .contact.contact_inner ul.bottom_add{
+        padding-left: 0px;
+    }
+    .contact.contact_inner ul li.bottom_address{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contact.contact_inner .contact_left_clint{
+        height: 100%;
+    }
+    .contact.contact_inner{
+        margin-bottom: 0px;
+    }
+    .contact.contact_inner .right_contact ul li:last-child{
+        margin-bottom: 20px;
+    }
+    
+    /********************************************
+        Contact us inner page Responsive end
+    *********************************************/
+    
+    /********************************************
+        About us inner page Responsive start
+    *********************************************/
+    
+    /*********** About us inner sec start *************/
+    
+    .about_inner{
+        margin-top: 30px;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        display: none;
+    }
+    .about_inner .left_about_content .our_mission::after{
+        display: none;
+    }
+    .we_are .tab_right_content h3{
+        font-size: 32px;
+    }
+    .about_inner .about_inner_right_image{
+        margin-top: 15px;
+    }
+    .about_inner .left_about_content .our_mission:last-child .leftiocn{
+        margin-top: 15px;
+    }
+    .about_inner .mobile_bottom{
+        display: none;
+    }
+    .about_inner .mobile_top{
+        display: none;
+    }
+    .about_inner .left_about_content{
+        margin-top: 35px;
+    }
+    
+    /*********** About us inner sec end ***************/
+    
+    /*********** We are sec start *********************/
+    
+    .we_are{
+        margin-top: 30px;
+    }
+    .we_are .left_fullscreen_image{
+        width: 100%;
+        float: none;
+        height: 100%;
+    }
+    .we_are .tab_right_content{
+        padding: 40px 35px;
+    }
+    .we_are .tab_right_content .outer_tab_area{
+        width: 100%;
+    }
+    .we_are .tab_right_content .who_click_tab ul li a{
+        font-size: 12px;
+    }
+    .we_are .tab_right_content .who_click_tab{
+        border-bottom: 0px;
+        margin-top: 0px;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li{
+        padding-bottom: 7px;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(2n){
+        width: 10%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(3n){
+        width: 16%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(4n){
+        width: 10%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(5n){
+        width: 13%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(6n) {
+	   width: 7%;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li:nth-child(7n){
+        width: 15%;
+    }
+    .our_service .service_outer_box.core_value_fourbox .service_blue_box.hight_ad{
+        height: auto;
+        padding: 30px 0 30px 0;
+    }
+    .ceo ul .slick-prev{
+        left: 0px;
+    }
+    .ceo ul .slick-next{
+        right: 0px;
+    }
+    .v_added ul .slick-prev{
+        left: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .v_added ul .slick-next{
+        right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .v_added ul .slick-prev::before{
+        padding: 25px;
+    }
+    .v_added ul .slick-next::before{
+        padding: 25px;
+    }
+    
+    /*********** We are sec end ***********************/
+    
+    /*********** Our merits sec start *****************/
+    
+    .merits{
+        margin-top: 30px;
+    }
+    .merits h2{
+        padding-bottom: 15px;
+        font-size: 32px;
+    }
+    .merits .merits_content ul li{
+        padding-bottom: 20px;
+    }
+    .merits .merits_content ul li:last-child{
+        padding-bottom: 0px;
+    }
+    .merits .merits_content{
+        padding-left: 30px;
+    }
+    .merits .merits_content ul li img{
+        margin-bottom: 22px;
+    }
+    
+    /*********** Our merits sec end *******************/
+    
+    /*********** CEO sec start ************************/
+    
+    .ceo h2{
+        font-size: 32px;
+    }
+    .ceo ul li .ceo_message::after{
+        background-size: 75%;
+    }
+    .ceo ul li .ceo_message::before{
+        background-size: 75%;
+    }
+    .ceo{
+        margin-top: 30px;
+    }
+    .ceo ul li .ceo_message p{
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    
+    /*********** CEO sec end **************************/
+    
+    /********** Value added service sec start **************/
+    
+    .v_added h2{
+        font-size: 32px;
+    }
+    .v_added{
+        padding: 40px 0;
+    }
+    .v_added h2{
+        padding-bottom: 10px;
+    }
+    .v_added p{
+        width: 86%;
+        padding-bottom: 20px;
+    }
+    
+    /********** Value added service sec end ****************/
+    
+    /********************************************
+        About us inner page Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog sec Responsive start
+    ********************************************/
+    
+    .blog{
+        margin-top: 30px;
+    }
+    .blog .blog_box .blog_cap{
+        padding: 20px;
+    }
+    .blog .blog_box .blog_cap h3{
+        font-size: 18px;
+    }
+    .blog .blog_box .blog_cap p{
+        font-size: 14px;
+    }
+    .blog .blog_box .blog_cap ul li{
+        padding-bottom: 10px;
+    }
+    .blog ul.pagi{
+        margin: 30px 0 !important;
+    }
+    .blog .blog_center_pad{
+        padding: 0 15px;
+    }
+    .blog .blog_box .blog_image img{
+        width: 100%;
+    }
+    
+    /********************************************
+        Our Blog sec Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog Detail Responsive start
+    ********************************************/
+    
+    .blog_detail{
+        padding-top: 50px;
+    }
+    .blog_detail .left_detail{
+        margin-bottom: 30px;
+    }
+    .blog_detail .left_detail h5{
+        line-height: 38px;
+        font-size: 28px;
+    }
+    .blog_detail .left_detail p{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .blog_detail .left_detail .blog_con .bigg img{
+        padding-bottom: 15px;
+        height: 245px;
+    }
+    .blog_detail .left_detail .blog_con h5{
+        padding-top: 6px;
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+    .blog_detail .left_detail .blog_con ul li{
+        padding-bottom: 13px;
+    }
+    .blog_detail .right_form{
+        padding: 40px 20px;
+        margin-bottom: 30px;
+    }
+    .blog_detail .right_form h5{
+        font-size: 18px;
+    }
+    .blog_detail .right_form button{
+        padding: 12px 29px;
+    }
+    
+    /********************************************
+        Our Blog Detail Responsive end
+    ********************************************/
+    
+    /*******************************************
+        Business Setup in UAE Responsive start
+    *******************************************/
+    
+    .business{
+        padding-top: 40px;
+    }
+    .business .right_our_service .select_service_sec ul li{
+        padding: 14px 0px 14px 15px;
+    }
+    .business .right_our_service .select_service_sec ul li a{
+        font-size: 14px;
+    }
+    .business .business_left_zone .top_big_image{
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .business .business_left_zone h5{
+        font-size: 27px;
+        padding-bottom: 7px;
+    }
+    .business .business_left_zone p.small_heding{
+        font-size: 17px;
+        line-height: 36px;
+        padding-bottom: 0px;
+    }
+    .business .business_left_zone h5.want{
+        font-size: 23px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box{
+        padding: 30px 15px 0px 15px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box h6{
+        padding: 10px 0;
+        font-size: 16px;
+        height: 75px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box a{
+        padding: 10px 35px;
+    }
+    .business .business_left_zone .inner_service_box{
+        padding-bottom: 15px;
+    }
+    .business_service{
+        margin-top: 40px;
+    }
+    .business_service h2{
+        padding-bottom: 2px;
+        font-size: 32px;
+    }
+    .business_service p{
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    .business_service .servicbox ._imagebox{
+        height: 190px;
+        margin-bottom: 25px;
+    }
+    .business_service .servicbox .service_contentbox h5{
+        font-size: 18px;
+        width: 90%;
+        height: 70px;
+    }
+    .business_service .servicbox .service_contentbox p{
+        padding-bottom: 17px;
+    }
+    .freezone{
+        margin: 40px 0;
+    }
+    .freezone ul{
+        margin-left: 10%;
+    }
+    .freezone ul li .two_box{
+        width: 50%;
+    }
+    .freezone ul li .two_box ul li{
+        font-size: 14px;
+    }
+    .freezone ul .slick-prev{
+        margin-top: 42%;
+        left: 67%;
+    }
+    .freezone ul .slick-next{
+        margin-top: 42%;
+    }
+    ._desktop{
+        display: none;
+    }
+    ._right14{
+        padding-right: 15px !important;
+        margin-bottom: 15px;
+    }
+    ._left0{
+        padding-left: 15px !important;
+    }
+    .freezone ul li{
+        padding-top: 50px;
+    }
+    .business_service .servicbox{
+        margin-bottom: 20px;
+    }
+    .business_service .servicbox .service_contentbox{
+        padding: 0 10px 25px 10px;
+    }
+    @media only screen and (min-width: 690px) and (max-width: 767px){
+        
+    .freezone ul .slick-prev{
+        margin-top: 38%;
+        left: 69%;
+    }
+    .freezone ul .slick-next{
+        margin-top: 38%;
+    }
+        
+    }
+   
+    
+    /*******************************************
+        Business Setup in UAE Responsive end
+    *******************************************/
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive start
+    ******************************************************/
+    
+    .dubai_freezone{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .dubai_freezone h5{
+        padding-bottom: 10px;
+        font-size: 30px;
+        padding-left: 15px;
+    }
+    .dubai_freezone p{
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+    .freezone_limit{
+        padding-top: 40px;
+    }
+    .dubai_freezone .freezone_list{
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    .freezone_limit h5{
+        padding-bottom: 10px;
+        font-size: 30px;
+        padding-left: 15px;
+    }
+    .freezone_limit p{
+        padding-bottom: 20px;
+        padding-left: 15px;
+    }
+    .freezone_limit h6{
+        padding-top: 0px;
+        padding-left: 15px;
+    }
+    .docu .inner_area{
+        padding: 40px 15px 40px 15px;
+    }
+    .docu .inner_area h5{
+        font-size: 27px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+    .docu .inner_area .regi{
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .docu .inner_area p.all_of{
+        padding: 0 0 25px 0;
+    }
+    .docu .inner_area .freezone_bottom_sec h6{
+        font-size: 18px;
+        padding-bottom: 18px;
+        padding-top: 10px;
+    }
+    .docu{
+        margin-top: 40px;
+    }
+    .freezone_limit ul li{
+        padding-left: 15px;
+    }
+    .dubai_freezone .freezone_slider{
+        padding-left: 15px;
+    }
+    .dubai_freezone .freezone_slider img{
+        height: 300px;
+    }
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive end
+    ******************************************************/
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive start
+    *****************************************************************/
+    
+    .llc_detail{
+        margin-top: 40px;
+    }
+    .llc_detail p{
+        padding-bottom: 10px;
+    }
+    .llc_detail p:last-child{
+        padding-bottom: 40px;
+    }
+    .llc_company p{
+        width: 90%;
+        padding-bottom: 12px;
+    }
+    .llc_company .company_info .company_detail_content{
+        padding: 12px 30px;
+    }
+    .llc_detail h5{
+        font-size: 27px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .llc_company h2{
+        font-size: 32px;
+        padding-top: 15px;
+    }
+    .llc_company .company_info .company_imagebox{
+        height: 290px;
+    }
+    .las_t{
+        margin: 0px auto;
+    }
+    .llc_company .company_info{
+        margin-bottom: 30px;
+    }
+    .llc_detail .right_youtube_sec{
+        height: 330px;
+    }
+    .moreover{
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+    .moreover h2{
+        font-size: 24px;
+        line-height: 35px;
+        padding-bottom: 15px;
+    }
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive end
+    *****************************************************************/
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    .business .business_left_zone .lets_talk{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .business .business_left_zone .lets_talk h6{
+        padding: 15px 0 20px 0;
+    }
+    .business .business_left_zone .lets_talk button{
+        margin-bottom: 60px;
+    }
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    /********************************************
+        Ajman Offshore Responsive start
+    ********************************************/
+    
+    .ajman{
+        padding: 40px 0 0 0;
+        background-size: auto;
+    }
+    .ajman .right_ajman_content h5{
+        font-size: 28px;
+        line-height: 38px;
+        padding-bottom: 5px;
+        padding-top: 15px;
+    }
+    .ajman .right_ajman_content p{
+        line-height: 29px;
+    }
+    
+    
+    /********************************************
+        Ajman Offshore Responsive end
+    ********************************************/
+    
+    /********************************************
+        Offshore Overview Responsive start
+    ********************************************/
+    
+    .business .business_left_zone .list_advantage{
+        padding-bottom: 40px;
+    }
+    .off_service{
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .off_service .overview_caption p{
+        width: 60%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .off_service h2{
+        padding-bottom: 40px;
+        font-size: 32px;
+    }
+    .off_service .overview_imagebox{
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    .off_service .overview_imagebox._oover{
+        margin-bottom: 0px;
+    }
+    
+    /********************************************
+        Offshore Overview Responsive end
+    ********************************************/
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive start
+    ******************************************************/
+    
+    .family_visa{
+        padding: 40px 0 20px 0;
+    }
+    .family_visa .top_big_image{
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    .family_visa p{
+        padding-bottom: 10px;
+    }
+    .family_visa h6{
+        padding-top: 0px;
+    }
+    .family_visa h5{
+        padding-bottom: 10px;
+        font-size: 30px;
+    }
+    .business_service.offshore_page.family_visa_inner_service{
+        padding-bottom: 40px;
+    }
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive end
+    ******************************************************/
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    .pro_fourbox{
+        margin: 40px 0 0 0; 
+    }
+    .pro_fourbox .inner_four_box p{
+        width: 88%;
+        height: 126px;
+    }
+    .business_service.PRO_business_services{
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    .business.PRO_business_diamond_bg{
+        padding-bottom: 40px;
+    }
+    .pro_fourbox .inner_four_box{
+        margin-bottom: 30px;
+    }
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    /***********************************
+        Package  Responsive start
+    ***********************************/
+    
+    .package_set_up{
+        padding: 40px 0;
+    }
+    .package_set_up .package_right_content{
+        padding: 40px;
+    }
+    .package_set_up .left_no_padding{
+        padding-left: 15px;
+    }
+    .package_set_up .right_no_padding{
+        padding-right: 15px;
+    }
+    .package_set_up .package_right_content h3{
+        font-size: 29px;
+    }
+    .service_package{
+        margin-top: 40px;
+    }
+    .service_package h2{
+        padding-bottom: 20px;
+        font-size: 32px;
+    }
+    .service_package .package_outer{
+        height: auto;
+    }
+    .why_hire{
+        padding: 40px 0 20px 0;
+    }
+    .why_hire h2{
+        font-size: 32px;
+    }
+    .why_hire span{
+        padding-bottom: 20px;
+    }
+    .service_package .package_outer .shape p{
+        font-size: 22px;
+        padding: 35px 0 70px 0;
+        line-height: 32px;
+    }
+    .service_package .package_outer .shape{
+        height: 185px;
+    }
+    .service_package .package_outer .price_list span{
+        font-size: 25px;
+        padding: 0 0 15px 0;
+    }
+    .service_package .package_outer .price_list ul li p{
+        width: 80%;
+    }
+    .service_package .package_outer .price_list{
+        padding: 0 15px;
+    }
+    .service_package .package_outer .price_list ul li:nth-child(4n) p{
+        width: 60%;
+    }
+    .service_package .package_outer.pink_border{
+        margin-top: 30px;
+    }
+    .service_package .package_outer.sky_blue_border{
+        margin-top: 30px;
+    }
+    .service_package .right_zero{
+        padding-right: 15px;
+    }
+    .service_package p{
+        padding-bottom: 40px;
+    }
+    @media only screen and (min-width: 641px) and (max-width: 661px){
+        .service_package .package_outer .price_list ul li p{
+            font-size: 14px;
+        }
+    }
+    
+    
+    /***********************************
+        Package  Responsive end
+    ***********************************/
+    
+    /***********************************
+        FAQ  Responsive start
+    ***********************************/
+    
+    .faq{
+        padding: 40px 0;
+    }
+    .faq h5{
+        font-size: 30px;
+    }
+    .accordion-body__contents{
+        padding: 30px 0 35px 40px
+    }
+    .accordion-header{
+        display: flex;
+    }
+    .accordion-header h6{
+        width: 100%;
+        line-height: 26px;
+    }
+    
+    /***********************************
+        FAQ  Responsive end
+    ***********************************/
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px){
+    
+    /*************************************
+        IMAS home page responsive start
+    **************************************/
+    
+    #social-sidebar a{
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+        padding: 8px 0;
+    }
+    
+    /********** Top Header sec start **********/
+    
+    .top_header{
+        top: 15px;
+    }
+    .top_header .no_contact{
+        display: none;
+    }
+    .top_header .top_contact ul li:first-child{
+        width: 66%;
+        
+    }
+    .top_header .top_contact ul li:nth-child(2n){
+        margin-bottom: 10px;
+        
+    }
+
+    .top_header .top_header_social{
+        padding-left: 2%;
+        display: none;
+    }
+    .top_header .top_contact{
+        margin-bottom: 20px;
+    }
+    .top_header .top_serch{
+        margin-bottom: 20px;
+    }
+    .top_nav .header_logo a.desktop_logo{
+        display: none;
+    }
+    
+    /********** Top Header sec end ************/
+    
+    /********** Top nav sec start ************/
+    
+    .top_nav .get_contact{
+        display: none;
+    }
+    .navbar li{
+        padding: 0 13px;
+    }
+    .navbar li a{
+        padding: 35px 10px;
+    }
+    .top_nav{
+        padding-left: 0px;
+        background: none;
+    }
+    .top_nav .header_logo img{
+        width: 75%;
+        padding: 10px 0;
+    }
+    .navbar-toggler-icon .bar{
+        background: #fff;
+    }
+    .navbar li a:hover{
+        border-bottom: 0px;
+        color: #0637a4;
+    }
+    .navbar li a.active{
+        border-bottom: 0px;
+        color: #0637a4;
+    }
+    .navbar-collapse{
+        background: #1494ff; 
+    }
+    .navbar li a{
+        color: #fff;
+        padding: 15px 7px;
+        text-align: left;
+    }
+    ._mob-menu-hdr{
+        text-align: left;
+        padding: 10px 20px;
+    }
+    
+    
+    /********** Top nav sec start ************/
+    
+    /********** Top slider sec start ************/
+    
+    .top_slider .captionBox h5{
+        line-height: 32px;
+        padding-top: 7px;
+        font-size: 24px;
+    }
+    .top_slider .captionBox{
+        margin-top: -15px;
+    }
+    .top_slider .captionBox h1{
+        font-size: 29px;
+        line-height: 32px;
+    }
+    #camera_wrap_2{
+        height: 240px !important;
+    }
+    .top_slider .captionBox p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        height: 100px !important;
+        overflow: hidden;
+        color: #312d2d;
+    }
+    .camera_wrap .camera_pag .camera_pag_ul{
+        display: none;
+    }
+    .top_slider .captionBox a{
+        padding: 11px 16px;
+        display: none;
+    }
+    .top_slider .camera_prev, .camera_next{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .top_slider .camera_prev > span, .camera_next > span{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .top_slider .camera_prev > span{
+        background-size: 35%;
+    }
+    .top_slider .camera_next > span{
+        background-size: 35%;
+    }
+    
+    /********** Top slider sec end **************/
+    
+    /*********  About IMAS sec start ************/
+    
+    .about_imas{
+        margin-top: 15px;
+    }
+    .about_imas .about_left_con h5{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .about_imas .about_left_con p{
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+    .about_imas .about_left_con p.about_last_pra{
+        padding-bottom: 15px;
+    }
+    .about_imas .about_right_pic{
+        margin-left: 0px;
+    }
+    .about_imas .about_left_con h5 span{
+        font-size: 34px;
+    }
+    .about_imas .about_left_con a{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 13px 22px;
+    }
+    
+    /*********  About IMAS sec end **************/
+    
+    
+    /*********  Our services sec start **************/
+    
+    .our_service{
+        margin-top: 15px;
+    }
+    .our_service h2{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 32px;
+    }
+    .our_service p{
+        width: 100%;
+        line-height: 27px;
+    }
+    .our_service p::after{
+        left: 37%;
+        display: none;
+    }
+    .our_service .service_outer_box{
+        padding-top: 0px; 
+    }
+    .our_service .service_outer_box .service_blue_box h5{
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .our_service .service_outer_box .service_blue_box p{
+        padding-bottom: 15px;
+        height: auto;
+    }
+    a.more_services{
+        margin: 5px auto 15px auto;
+    }
+    .our_service .service_outer_box .service_blue_box{
+        height: auto;
+        padding: 35px 0 35px 0;
+        margin-bottom: 15px;
+    }
+    .cen_ter{
+        display: block;
+    }
+    
+    /*********  Our services sec end ****************/
+    
+    
+    /*********  Package sec start ****************/
+    
+    .package{
+        margin-top: 15px;
+    }
+    .package h2{
+        padding-bottom: 5px;
+        font-size: 32px;
+    }
+    .package p{
+        width: 90%;
+        padding-bottom: 0px;
+    }
+    .package p::after{
+        display: none;
+    }
+    .package .package_box_outer{
+        padding-top: 15px;
+    }
+    .package .package_box_outer .plan .starter::after{
+        left: 37%;
+        bottom: -25px;
+    }
+    .package .package_box_outer .plan{
+        margin-bottom: 20px !important;
+    }
+    .package .package_box_outer .plan:last-child{
+        margin-bottom: 0px;
+    }
+    .package .package_box_outer .plan .starter h6{
+        font-size: 27px;
+        padding: 35px 0;
+    }
+    
+    /*********  Package sec end ******************/
+    
+    /*********  Center address sec start *********/
+    
+    .center_address{
+        margin-top: 15px;
+    }
+    .center_address ul{
+        padding-left: 0px;
+    }
+    .center_address ul li:first-child{
+        width: 100%;
+    }
+    .center_address ul li{
+        padding: 15px 0;
+        float: none;
+        width: 100%;
+    }
+    .center_address ul li a{
+        font-size: 16px;
+    }
+    .center_address ul li:last-child{
+        padding-top: 0px;
+    }
+    .center_address ul li a .fa-map-marker-alt{
+        width: 20px;
+        height: 20px;
+    }
+    .center_address ul li a .fa-envelope{
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
+    }
+    .center_address ul li a .fa-phone-alt{
+        width: 20px;
+        height: 20px;
+    }
+    .center_address ul li:nth-child(2n){
+        padding-top: 0px;
+    }
+    
+    /*********  Center address sec end ***********/
+    
+    /********* Testmonial sec start **************/
+    
+    .testmonial{
+        margin-top: 15px;
+    }
+    .testmonial span{
+        padding-bottom: 5px;
+    }
+    .testmonial h2{
+        padding-bottom: 25px;
+        font-size: 32px;
+    }
+    .testmonial .test_card{
+        width: 90%;
+    }
+    .testmonial .test_card{
+        padding-top: 25px;
+    }
+    .testmonial .test_card img{
+        width: 6%;
+        padding-bottom: 15px;
+    }
+    .testmonial .test_card p{
+        width: 90%;
+    }
+    .testmonial .clint{
+        width: 100px;
+        height: 100px;
+    }
+    
+    /********* Testmonial sec end ****************/
+    
+    /*********  Contact us sec start *************/
+    
+    .contact{
+        margin-top: 15px;
+    }
+    .contact .left_map{
+        margin-top: 0px;
+    }
+    .contact .left_map{
+        height: 300px;
+    }
+    .contact .left_map iframe{
+        height: 100%;
+    }
+    .contact .no_padding{
+        padding: 0 15px;
+    }
+    .contact .right_contact ul li{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact .right_contact ul li:last-child{
+        margin-bottom: 0px;
+    }
+    .contact .right_contact ul li input[type="text"]{
+        width: 100%;
+    }
+    .contact .right_contact ul li input[type="email"]{
+        width: 100%;
+    }
+    .contact .right_contact ul li textarea{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    /*********  Contact us sec end ***************/
+    
+    /*********  Footer sec start ****************/
+    
+    .footer{
+        padding-top: 50px;
+    }
+    .footer h5{
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+    .footer ul:nth-child(2n){
+        padding-left: 0px;
+    }
+    .footer h5.followus{
+        padding-left: 0px;
+    }
+    
+    
+    /*********  Footer sec end ******************/
+    
+    
+    /*********  Copyright sec start ******************/
+    
+    .copyright ul{
+        margin-right: 5%;
+    }
+    
+    /*********  Copyright sec end ********************/
+    
+    /*************************************
+        IMAS home page responsive end
+    **************************************/
+    
+    /********************************************
+        Contact us inner page Responsive start
+    *********************************************/
+    
+    .top_header.top_bg h2{
+        padding: 20px 0 50px 0;
+        font-size: 32px;
+    }
+    .contact.contact_inner .right_contact{
+        padding: 0px;
+    }
+    .contact.contact_inner .right_contact ul li{
+        width: 100% !important;
+        margin-right: 0px;
+    }
+    .contact.contact_inner .right_contact h5{
+        padding-top: 20px;
+    }
+    .contact.contact_inner ul.bottom_add{
+        padding-left: 0px;
+    }
+    .contact.contact_inner ul li.bottom_address{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contact.contact_inner .contact_left_clint{
+        height: 100%;
+    }
+    .contact.contact_inner{
+        margin-bottom: 0px;
+    }
+    .contact.contact_inner .right_contact ul li:last-child{
+        margin-bottom: 20px;
+    }
+    
+    /********************************************
+        Contact us inner page Responsive end
+    *********************************************/
+    
+    /********************************************
+        About us inner page Responsive start
+    *********************************************/
+    
+    /*********** About us inner sec start *************/
+    
+    .about_inner{
+        margin-top: 30px;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        display: none;
+    }
+    .about_inner .left_about_content .top_about_heder h5{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .about_inner .left_about_content p.wms{
+        padding-top: 15px;
+    }
+    .about_inner .left_about_content .our_mission::after{
+        display: none;
+    }
+    .about_inner .about_inner_right_image{
+        margin-top: 15px;
+    }
+    .about_inner .left_about_content .our_mission:last-child .leftiocn{
+        margin-top: 15px;
+    }
+    .about_inner .mobile_bottom{
+        display: none;
+    }
+    .about_inner .mobile_top{
+        display: none;
+    }
+    .about_inner .left_about_content{
+        margin-top: 35px;
+    }
+    
+    /*********** About us inner sec end ***************/
+    
+    /*********** We are sec start *********************/
+    
+    .we_are{
+        margin-top: 30px;
+    }
+    .we_are .left_fullscreen_image{
+        width: 100%;
+        float: none;
+        height: 100%;
+    }
+    .we_are .tab_right_content{
+        padding: 30px 15px;
+    }
+    .we_are .tab_right_content h3{
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+    .we_are .tab_right_content .outer_tab_area{
+        width: 100%;
+    }
+    .we_are .tab_right_content .who_click_tab ul li a{
+        font-size: 15px;
+        text-align: left;
+    }
+    .we_are .tab_right_content .who_click_tab ul li a i img{
+        padding: 18px 0;
+        padding-top: 23px;
+    }
+    .we_are .tab_right_content .who_click_tab{
+        border-bottom: 0px;
+        overflow: scroll;
+        margin-top: 0px;
+    }
+    .we_are .tab_right_content .who_click_tab ul{
+        display: flex;
+        justify-content: flex-start;
+        width: 690px;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li{
+        padding-bottom: 5px;
+        border-bottom: 0px;
+        float: none;
+        width: auto !important;
+        margin-bottom: 5px;
+    }
+    .we_are .tab_right_content .who_click_tab ul li a i{
+        margin: 0px;
+    }
+    .our_service .service_outer_box.core_value_fourbox .service_blue_box.hight_ad{
+        height: auto;
+        padding: 30px 0 30px 0;
+    }
+    .v_added ul .slick-prev{
+        left: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .v_added ul .slick-next{
+        right: 0px;
+        width: 50px;
+        height: 50px;
+    }
+    .v_added ul .slick-prev::before{
+        padding: 25px;
+    }
+    .v_added ul .slick-next::before{
+        padding: 25px;
+    }
+    
+    /*********** We are sec end ***********************/
+    
+    /*********** Our merits sec start *****************/
+    
+    .merits{
+        margin-top: 30px;
+    }
+    .merits h2{
+        padding-bottom: 15px;
+        font-size: 32px;
+    }
+    .merits .merits_content ul li{
+        padding-bottom: 20px;
+    }
+    .merits .merits_content ul li:last-child{
+        padding-bottom: 0px;
+    }
+    .merits .merits_content{
+        padding-left: 0px;
+    }
+    .merits .merits_content ul li img{
+        margin-bottom: 0px;
+    }
+    .merits .merits_content ul li p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    /*********** Our merits sec end *******************/
+    
+    /*********** CEO sec start ************************/
+    
+    .ceo h2{
+        font-size: 32px;
+    }
+    .ceo ul li .ceo_message::after{
+        display: none;
+    }
+    .ceo ul li .ceo_message::before{
+        display: none;
+    }
+    .ceo ul li .ceo_message p{
+        width: 100%;
+        padding-bottom: 15px;
+        padding-top: 30px;
+    }
+    .ceo ul .slick-prev{
+        display: none !important;
+    }
+    .ceo ul .slick-next{
+        display: none !important;
+    }
+    .ceo{
+        margin-top: 15px;
+    }
+    
+    /*********** CEO sec end **************************/
+    
+    /********** Value added service sec start **************/
+    
+    .v_added h2{
+        font-size: 32px;
+    }
+    .v_added{
+        padding: 40px 0;
+    }
+    .v_added h2{
+        padding-bottom: 10px;
+    }
+    .v_added p{
+        width: 100%;
+    }
+    
+    /********** Value added service sec end ****************/
+    
+    /********************************************
+        About us inner page Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog sec Responsive start
+    ********************************************/
+    
+    .blog{
+        margin-top: 15px;
+    }
+    .blog .blog_box .blog_cap{
+        padding: 20px;
+    }
+    .blog .blog_box .blog_cap h3{
+        font-size: 18px;
+    }
+    .blog .blog_box .blog_cap p{
+        font-size: 14px;
+    }
+    .blog .blog_box .blog_cap ul li{
+        padding-bottom: 10px;
+    }
+    .blog ul.pagi{
+        margin: 15px 0 !important;
+    }
+    .blog .blog_center_pad{
+        padding: 0 15px;
+    }
+    .blog .blog_box .blog_image img{
+        width: 100%;
+    }
+    
+    /********************************************
+        Our Blog sec Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog Detail Responsive start
+    ********************************************/
+    
+    .blog_detail{
+        padding-top: 30px;
+    }
+    .blog_detail .left_detail{
+        margin-bottom: 30px;
+        padding: 40px 20px;
+    }
+    .blog_detail .left_detail h5{
+        line-height: 38px;
+        font-size: 26px;
+    }
+    .blog_detail .left_detail p{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .blog_detail .left_detail .blog_con .bigg img{
+        padding-bottom: 15px;
+        height: 245px;
+    }
+    .blog_detail .left_detail .blog_con p{
+        padding-bottom: 0px;
+        font-size: 15px;
+    }
+    .blog_detail .left_detail .blog_con h5{
+        padding-top: 6px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog_detail .left_detail .blog_con ul li{
+        padding-bottom: 13px;
+    }
+    .blog_detail .right_form{
+        padding: 40px 20px;
+        margin-bottom: 30px;
+    }
+    .blog_detail .right_form h5{
+        font-size: 18px;
+    }
+    .blog_detail .right_form button{
+        padding: 12px 29px;
+    }
+    
+    /********************************************
+        Our Blog Detail Responsive end
+    ********************************************/
+    
+    /*******************************************
+        Business Setup in UAE Responsive start
+    *******************************************/
+    
+    .business{
+        padding-top: 30px;
+    }
+    .business .right_our_service .select_service_sec ul li{
+        padding: 14px 0px 14px 15px;
+    }
+    .business .right_our_service .select_service_sec ul li a{
+        font-size: 14px;
+    }
+    .business .business_left_zone .top_big_image{
+        height: 300px;
+        margin-bottom: 15px;
+    }
+    .business .business_left_zone h5{
+        font-size: 24px;
+        padding-bottom: 7px;
+    }
+    .business .business_left_zone p.small_heding{
+        font-size: 17px;
+        line-height: 25px;
+        padding-bottom: 10px;
+    }
+    .business .business_left_zone h5.want{
+        font-size: 23px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box{
+        padding: 30px 15px 0px 15px;
+    }
+    .business .right_our_service{
+        margin-top: -10px;
+    }
+    .business .right_our_service .select_service_sec{
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box h6{
+        padding: 15px 0;
+        font-size: 15px;
+        height: auto;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box a{
+        padding: 10px 35px;
+    }
+    .business .business_left_zone .inner_service_box{
+        padding-bottom: 15px;
+    }
+    .business_service{
+        margin-top: 30px;
+    }
+    .business_service h2{
+        padding-bottom: 2px;
+        font-size: 26px;
+    }
+    
+    .business_service p{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .business_service .servicbox ._imagebox{
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    .business_service .servicbox .service_contentbox h5{
+        font-size: 18px;
+        width: 90%;
+        height: auto;
+    }
+    .business_service .servicbox .service_contentbox p{
+        padding-bottom: 17px;
+    }
+    @media only screen and (min-width: 481px) and (max-width: 575px){
+        .business_service .servicbox .service_contentbox p{
+            height: 73px;
+        }
+    }
+    @media only screen and (min-width: 481px) and (max-width: 640px){
+        .business_service .servicbox .service_contentbox h5{
+            height: 60px;
+        } 
+    }
+    .freezone{
+        margin: 30px 0;
+        /*padding-bottom: 50px;*/
+    }
+    .freezone ul li h5{
+        font-size: 27px;
+        padding-bottom: 0px;
+    }
+    .freezone ul li span{
+        padding-bottom: 8px;
+        font-size: 18px;
+    }
+    .freezone ul li p{
+        font-size: 14px;
+    }
+    .freezone ul{
+        margin-left: 10%;
+    }
+    .freezone ul li .two_box{
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .freezone ul li .two_box:last-child{
+        padding-bottom: 50px;
+    }
+    .freezone ul li .two_box ul li{
+        font-size: 14px;
+    }
+    .freezone ul .slick-prev{
+        top: 80%;
+        left: 55%;
+    }
+    .freezone ul .slick-next{
+        top: 80%;
+    }
+    ._desktop{
+        display: none;
+    }
+    ._right14{
+        padding-right: 15px !important;
+        margin-bottom: 15px;
+    }
+    ._left0{
+        padding-left: 15px !important;
+    }
+    .freezone ul li{
+        padding-top: 50px;
+    }
+    .business_service .servicbox{
+        margin-bottom: 20px;
+    }
+    .business_service .servicbox .service_contentbox{
+        padding: 0 10px 25px 10px;
+    }
+    @media only screen and (min-width: 545px) and (max-width: 640px){
+        
+    .freezone ul .slick-prev{
+        top: 75%;
+        left: 60%;
+    }
+    .freezone ul .slick-next{
+        top: 75%;
+    }
+        
+    }
+   
+    
+    /*******************************************
+        Business Setup in UAE Responsive end
+    *******************************************/
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive start
+    ******************************************************/
+    
+    .dubai_freezone{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .dubai_freezone h5{
+        padding-bottom: 10px;
+        font-size: 23px;
+        padding-left: 15px;
+    }
+    .dubai_freezone p{
+        padding-bottom: 15px;
+        padding-left: 15px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .freezone_limit{
+        padding-top: 30px;
+    }
+    .dubai_freezone .freezone_list{
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    .freezone_limit h5{
+        padding-bottom: 10px;
+        font-size: 23px;
+        padding-left: 15px;
+    }
+    .freezone_limit p{
+        padding-bottom: 20px;
+        padding-left: 15px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .freezone_limit h6{
+        padding-top: 0px;
+        padding-left: 15px;
+        font-size: 20px;
+    }
+    .docu .inner_area{
+        padding: 30px 15px 30px 15px;
+    }
+    .freezone_limit ul li{
+        padding-left: 15px;
+    }
+    .docu .inner_area h5{
+        font-size: 23px;
+        line-height: 36px;
+        padding-bottom: 15px;
+    }
+    .docu .inner_area .regi{
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .docu .inner_area p.all_of{
+        padding: 0 0 25px 0;
+    }
+    .docu .inner_area .freezone_bottom_sec h6{
+        font-size: 18px;
+        padding-bottom: 18px;
+        padding-top: 10px;
+    }
+    .docu{
+        margin-top: 30px;
+    }
+    .dubai_freezone .freezone_slider{
+        padding-left: 15px;
+    }
+    .dubai_freezone .freezone_slider img{
+        height: 300px;
+    }
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive end
+    ******************************************************/
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive start
+    *****************************************************************/
+    
+    .llc_detail{
+        margin-top: 30px;
+    }
+    .llc_detail p{
+        padding-bottom: 10px;
+    }
+    .llc_detail p:last-child{
+        padding-bottom: 30px;
+    }
+    .llc_company p{
+        width: 100%;
+        padding-bottom: 12px;
+    }
+    .llc_company .company_info .company_detail_content{
+        padding: 12px 30px;
+    }
+    .llc_detail h5{
+        font-size: 26px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .llc_company h2{
+        font-size: 32px;
+        padding-top: 15px;
+    }
+    .llc_company .company_info .company_imagebox{
+        height: 290px;
+    }
+    .las_t{
+        margin: 0px auto;
+    }
+    .llc_company .company_info{
+        margin-bottom: 30px;
+    }
+    .llc_detail .right_youtube_sec{
+        height: 250px;
+    }
+    .moreover{
+        margin-top: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .moreover h2{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 15px;
+    }
+    .moreover ul li{
+        padding-bottom: 8px;
+    }
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive end
+    *****************************************************************/
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    .business .business_left_zone .lets_talk{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .business .business_left_zone .lets_talk h6{
+        padding: 15px 0 20px 0;
+    }
+    .business .business_left_zone .lets_talk button{
+        margin-bottom: 60px;
+    }
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    /********************************************
+        Ajman Offshore Responsive start
+    ********************************************/
+    
+    .ajman{
+        padding: 30px 0 0 0;
+        background-size: cover;
+    }
+    .ajman .right_ajman_content h5{
+        font-size: 26px;
+        line-height: 36px;
+        padding-bottom: 5px;
+        padding-top: 15px;
+    }
+    .ajman .right_ajman_content p{
+        line-height: 29px;
+    }
+    
+    
+    /********************************************
+        Ajman Offshore Responsive end
+    ********************************************/
+    
+    /********************************************
+        Offshore Overview Responsive start
+    ********************************************/
+    
+    .business .business_left_zone .list_advantage{
+        padding-bottom: 30px;
+    }
+    .off_service{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .off_service .overview_caption p{
+        width: 60%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .off_service h2{
+        padding-bottom: 30px;
+        font-size: 26px;
+    }
+    .off_service .overview_imagebox{
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    .off_service .overview_imagebox._oover{
+        margin-bottom: 0px;
+    }
+    
+    /********************************************
+        Offshore Overview Responsive end
+    ********************************************/
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive start
+    ******************************************************/
+    
+    .family_visa{
+        padding: 30px 0 10px 0;
+    }
+    .family_visa .top_big_image{
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    .family_visa p{
+        padding-bottom: 10px;
+    }
+    .family_visa h6{
+        padding-top: 0px;
+        font-size: 21px;
+    }
+    .family_visa h5{
+        padding-bottom: 10px;
+        font-size: 23px;
+    }
+    .business_service.offshore_page.family_visa_inner_service{
+        padding-bottom: 30px;
+    }
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive end
+    ******************************************************/
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    .pro_fourbox{
+        margin: 30px 0 0 0; 
+    }
+    .pro_fourbox .inner_four_box p{
+        width: 88%;
+        height: 126px;
+    }
+    .business_service.PRO_business_services{
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+    .business.PRO_business_diamond_bg{
+        padding-bottom: 30px;
+    }
+    .pro_fourbox .inner_four_box{
+        margin-bottom: 30px;
+    }
+    .business .business_left_zone .PRO_business ul li{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    @media only screen and (min-width: 481px) and (max-width: 575px){
+        .pro_fourbox .inner_four_box p{
+            width: 55%;
+            height: 97px;
+        }
+    }
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    /***********************************
+        Package  Responsive start
+    ***********************************/
+    
+    .package_set_up{
+        padding: 30px 0;
+    }
+    .package_set_up .package_right_content{
+        padding: 30px;
+    }
+    .package_set_up .left_no_padding{
+        padding-left: 15px;
+    }
+    .package_set_up .right_no_padding{
+        padding-right: 15px;
+    }
+    .package_set_up .package_right_content h3{
+        font-size: 27px;
+        line-height: 38px;
+    }
+    .package_set_up .package_right_content h5{
+        font-size: 19px;
+    }
+    .service_package{
+        margin-top: 30px;
+    }
+    .service_package h2{
+        padding-bottom: 8px;
+        font-size: 29px;
+    }
+    .service_package .package_outer{
+        height: auto;
+    }
+    .why_hire{
+        padding: 30px 0 20px 0;
+    }
+    .why_hire h2{
+        font-size: 29px;
+    }
+    .why_hire span{
+        padding: 12px 0;
+        width: 100%;
+    }
+    .why_hire ul li{
+        padding-bottom: 13px;
+    }
+    .service_package .package_outer .shape p{
+        font-size: 22px;
+        padding: 30px 0 60px 0;
+        line-height: 32px;
+        width: 55%;
+    }
+    .service_package .package_outer .shape p.professional{
+        padding-bottom: 45px;
+    }
+    .service_package .package_outer .price_list ul li{
+        padding-bottom: 15px;
+    }
+    .service_package .package_outer .price_list span{
+        font-size: 25px;
+        padding: 0 0 15px 0;
+    }
+    .service_package .package_outer .price_list ul li p{
+        width: 80%;
+    }
+    .service_package .package_outer .price_list{
+        padding: 0 15px;
+    }
+    .service_package .package_outer .price_list ul li:nth-child(4n) p{
+        width: 60%;
+    }
+    .service_package .package_outer.pink_border{
+        margin-top: 15px;
+    }
+    .service_package .package_outer.sky_blue_border{
+        margin-top: 15px;
+    }
+    .service_package .package_outer.green_border{
+        margin-top: 15px;
+    }
+    .service_package .right_zero{
+        padding-right: 15px;
+    }
+    .service_package p{
+        padding-bottom: 30px;
+    }
+    @media only screen and (min-width: 576px) and (max-width: 640px){
+        .service_package .package_outer{
+            height: 785px;
+        }
+        .service_package .package_outer .shape p{
+            padding: 30px 0 70px 0;
+        }
+        .service_package .package_outer.green_border{
+            margin-top: 0px;
+        }
+        .service_package .package_outer .shape{
+            height: 190px;
+        }
+        .service_package .package_outer.sky_blue_border{
+            margin-top: 15px;
+        }
+        .service_package .package_outer .shape p{
+            width: 95%;
+        }
+        .service_package .package_outer a.pin_k{
+            margin-top: 92px;
+        }
+    }
+    @media only screen and (min-width: 621px) and (max-width: 640px){
+        .service_package .package_outer a.pin_k{
+            margin-top: 70px;
+        }
+    }
+    
+    
+    
+    /***********************************
+        Package  Responsive end
+    ***********************************/
+    
+    /***********************************
+        FAQ  Responsive start
+    ***********************************/
+    
+    .faq{
+        padding: 30px 0;
+    }
+    .faq h5{
+        font-size: 30px;
+    }
+    .accordion-body__contents{
+        padding: 30px;
+    }
+    .accordion-header{
+        display: flex;
+    }
+    .accordion-header h6{
+        width: 100%;
+        line-height: 26px;
+    }
+    
+    /***********************************
+        FAQ  Responsive end
+    ***********************************/
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    
+    /*************************************
+        IMAS home page responsive start
+    **************************************/
+    
+    #social-sidebar a{
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        padding: 7px 0;
+    }
+    
+    /********** Top Header sec start **********/
+    
+    .top_header{
+        top: 15px;
+    }
+    .top_header .no_contact{
+        display: none;
+    }
+    .top_header .top_contact ul li:first-child{
+        width: 66%;
+        
+    }
+    .top_header .top_contact ul li:nth-child(2n){
+        margin-bottom: 10px;
+        
+    }
+
+    .top_header .top_header_social{
+        padding-left: 2%;
+        display: none;
+    }
+    .top_header .top_contact{
+        margin-bottom: 20px;
+    }
+    .top_header .top_serch{
+        margin-bottom: 20px;
+    }
+    .top_nav .header_logo a.desktop_logo{
+        display: none;
+    }
+    
+    /********** Top Header sec end ************/
+    
+    /********** Top nav sec start ************/
+    
+    .top_nav .get_contact{
+        display: none;
+    }
+    .navbar li{
+        padding: 0 13px;
+    }
+    .navbar li a{
+        padding: 35px 10px;
+    }
+    .top_nav{
+        padding-left: 0px;
+        background: none;
+    }
+    .top_nav .header_logo img {
+	   width: 65%;
+	   padding: 10px 0;
+	   float: left;
+    }
+    .navbar-toggler-icon .bar{
+        background: #fff;
+    }
+    .navbar li a:hover{
+        border-bottom: 0px;
+        color: #0637a4;
+    }
+    .navbar li a.active{
+        border-bottom: 0px;
+        color: #0637a4;
+    }
+    .navbar-collapse{
+        background: #1494ff; 
+    }
+    .navbar li a{
+        color: #fff;
+        padding: 15px 7px;
+        text-align: left;
+    }
+    ._mob-menu-hdr{
+        text-align: left;
+        padding: 10px 20px;
+    }
+    .navbar-collapse{
+        width: 250px;
+    }
+    
+    
+    /********** Top nav sec start ************/
+    
+    /********** Top slider sec start ************/
+    
+    .top_slider .captionBox h5{
+        line-height: 18px;
+        padding-top: 13px;
+        font-size: 16px;
+    }
+    .top_slider .captionBox{
+        margin-top: -15px;
+    }
+    .top_slider .captionBox h1{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .top_slider .captionBox p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        height: 55px !important;
+        overflow: hidden;
+        color: #312d2d;
+    }
+    .camera_wrap .camera_pag .camera_pag_ul{
+        display: none;
+    }
+    .top_slider .captionBox a{
+        padding: 11px 30px;
+        display: none;
+    }
+    .top_slider .camera_prev, .camera_next{
+        width: 28px !important;
+        height: 28px !important;
+        background-image: url(../images/slider_prev.png) !important;
+    }
+    .top_slider .camera_prev > span, .camera_next > span{
+        width: 28px !important;
+        height: 28px !important;
+    }
+    .top_slider .camera_prev{
+        left: 4%;
+    }
+    .top_slider .camera_next{
+        right: 6%;
+    }
+    .top_slider .camera_prev > span{
+        background-size: 35%;
+    }
+    .top_slider .camera_next > span{
+        background-size: 35%;
+    }
+    
+    /********** Top slider sec end **************/
+    
+    /*********  About IMAS sec start ************/
+    
+    .about_imas{
+        margin-top: 15px;
+    }
+    .about_imas .about_left_con h5{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .about_imas .about_left_con p{
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .about_imas .about_left_con p.about_last_pra{
+        padding-bottom: 15px;
+    }
+    .about_imas .about_right_pic{
+        margin-left: 0px;
+    }
+    .about_imas .about_left_con h5 span{
+        font-size: 24px;
+    }
+    .about_imas .about_left_con a{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    /*********  About IMAS sec end **************/
+    
+    
+    /*********  Our services sec start **************/
+    
+    .our_service{
+        margin-top: 15px;
+    }
+    .our_service h2{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 32px;
+    }
+    .our_service p{
+        width: 100%;
+        line-height: 27px;
+        padding-bottom: 0px;
+    }
+    .our_service p::after{
+        left: 37%;
+        display: none;
+    }
+    .our_service .service_outer_box{
+        padding-top: 15px; 
+    }
+    .our_service .service_outer_box .service_blue_box h5{
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .our_service .service_outer_box .service_blue_box p{
+        padding-bottom: 15px;
+        height: auto;
+    }
+    a.more_services{
+       margin: 0px auto 16px auto;
+        padding: 12px 17px;
+    }
+    .our_service .service_outer_box .service_blue_box{
+        height: auto;
+        padding: 35px 0 35px 0;
+        margin-bottom: 15px;
+    }
+    .cen_ter{
+        display: block;
+    }
+    
+    /*********  Our services sec end ****************/
+    
+    
+    /*********  Package sec start ****************/
+    
+    .package{
+        margin-top: 15px;
+    }
+    .package h2{
+        padding-bottom: 5px;
+        font-size: 24px;
+    }
+    .package p{
+        width: 90%;
+    }
+    .package .package_box_outer{
+        padding-top: 15px;
+    }
+    .package .package_box_outer .plan .starter::after{
+        left: 32%;
+        bottom: -24px;
+    }
+    .package .package_box_outer .plan{
+        margin-bottom: 20px !important;
+    }
+    .package .package_box_outer .plan:last-child{
+        margin-bottom: 0px;
+    }
+    .package .package_box_outer .plan .starter h6{
+        font-size: 20px;
+        padding: 25px 0;
+    }
+    .package .package_box_outer .plan ul {
+	   padding: 25px 15px 0 16px;
+    }
+    .package .package_box_outer .plan a{
+        padding: 12px 17px;
+    }
+    .package p::after{
+        display: none;
+    }
+    .package p{
+        padding-bottom: 0px;
+    }
+    @media only screen and (min-width: 350px) and (max-width: 480px){
+        .package .package_box_outer .plan .starter::after{
+            left: 38%;
+        }
+    }
+    
+    /*********  Package sec end ******************/
+    
+    /*********  Center address sec start *********/
+    
+    .center_address{
+        margin-top: 15px;
+    }
+    .center_address ul{
+        padding-left: 0px;
+    }
+    .center_address ul li:first-child{
+        width: 100%;
+    }
+    .center_address ul li{
+        padding: 15px 0;
+        float: none;
+        width: 100%;
+    }
+    .center_address ul li a{
+        font-size: 16px;
+    }
+    .center_address ul li:last-child{
+        padding-top: 0px;
+    }
+    .center_address ul li a .fa-map-marker-alt{
+        width: 20px;
+        height: 20px;
+    }
+    .center_address ul li a .fa-envelope{
+        width: 20px;
+        height: 20px;
+        margin-top: 2px;
+    }
+    .center_address ul li a .fa-phone-alt{
+        width: 20px;
+        height: 20px;
+    }
+    .center_address ul li:nth-child(2n){
+        padding-top: 0px;
+    }
+    
+    /*********  Center address sec end ***********/
+    
+    /********* Testmonial sec start **************/
+    
+    .testmonial{
+        margin-top: 15px;
+    }
+    .testmonial span{
+        padding-bottom: 5px;
+    }
+    .testmonial h2{
+        padding-bottom: 15px;
+        font-size: 32px;
+    }
+    .testmonial .test_card{
+        width: 90%;
+    }
+    .testmonial .test_card{
+        padding-top: 25px;
+    }
+    .testmonial .test_card img{
+        display: none;
+    }
+    .testmonial .test_card p{
+        width: 90%;
+    }
+    .testmonial .clint{
+        width: 100px;
+        height: 100px;
+    }
+    
+    /********* Testmonial sec end ****************/
+    
+    /*********  Contact us sec start *************/
+    
+    .contact{
+        margin-top: 15px;
+    }
+    .contact .left_map{
+        margin-top: 0px;
+    }
+    .contact .left_map{
+        height: 300px;
+    }
+    .contact .left_map iframe{
+        height: 100%;
+    }
+    .contact .no_padding{
+        padding: 0 15px;
+    }
+    .contact .right_contact ul li{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact .right_contact ul li:last-child{
+        margin-bottom: 0px;
+    }
+    .contact .right_contact ul li input[type="text"]{
+        width: 100%;
+    }
+    .contact .right_contact ul li input[type="email"]{
+        width: 100%;
+    }
+    .contact .right_contact ul li textarea{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    /*********  Contact us sec end ***************/
+    
+    /*********  Footer sec start ****************/
+    
+    .footer{
+        padding-top: 50px;
+    }
+    .footer h5{
+        padding-left: 0px;
+        padding-bottom: 20px;
+    }
+    .footer ul:nth-child(2n){
+        padding-left: 0px;
+    }
+    .footer h5.followus{
+        padding-left: 0px;
+    }
+    
+    
+    /*********  Footer sec end ******************/
+    
+    
+    /*********  Copyright sec start ******************/
+    
+    .copyright ul{
+        margin-right: 35%;
+    }
+    
+    /*********  Copyright sec end ********************/
+    
+    /*************************************
+        IMAS home page responsive end
+    **************************************/
+    
+    /********************************************
+        Contact us inner page Responsive start
+    *********************************************/
+    
+    .top_header.top_bg h2{
+        padding: 20px 0 50px 0;
+        font-size: 32px;
+    }
+    .contact.contact_inner .right_contact{
+        padding: 0px;
+    }
+    .contact.contact_inner .right_contact ul li{
+        width: 100% !important;
+        margin-right: 0px;
+    }
+    .contact.contact_inner .right_contact h5{
+        padding-top: 20px;
+    }
+    .contact.contact_inner ul.bottom_add{
+        padding-left: 0px;
+    }
+    .contact.contact_inner ul li.bottom_address{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contact.contact_inner .contact_left_clint{
+        height: 100%;
+    }
+    .contact.contact_inner{
+        margin-bottom: 0px;
+    }
+    .contact.contact_inner .right_contact ul li:last-child{
+        margin-bottom: 20px;
+    }
+    .contact.contact_inner ul.bottom_add li.bottom_address p{
+        font-size: 22px;
+    }
+    .contact.contact_inner ul.bottom_add li.bottom_address span{
+        font-size: 16px;
+    }
+    
+    /********************************************
+        Contact us inner page Responsive end
+    *********************************************/
+    
+    /********************************************
+        About us inner page Responsive start
+    *********************************************/
+    
+    /*********** About us inner sec start *************/
+    
+    .about_inner{
+        margin-top: 30px;
+    }
+    .about_inner .left_about_content .our_mission::before{
+        display: none;
+    }
+    .about_inner .left_about_content .top_about_heder h5{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .about_inner .left_about_content p.wms{
+        padding-top: 15px;
+    }
+    .about_inner .left_about_content .our_mission::after{
+        display: none;
+    }
+    .about_inner .about_inner_right_image{
+        margin-top: 15px;
+    }
+    .about_inner .left_about_content .our_mission:last-child .leftiocn{
+        margin-top: 15px;
+    }
+    .about_inner .mobile_bottom{
+        display: none;
+    }
+    .about_inner .mobile_top{
+        display: none;
+    }
+    .about_inner .left_about_content{
+        margin-top: 35px;
+    }
+    .about_inner .left_about_content .top_about_heder span{
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    
+    /*********** About us inner sec end ***************/
+    
+    /*********** We are sec start *********************/
+    
+    .we_are{
+        margin-top: 30px;
+    }
+    .we_are .left_fullscreen_image{
+        width: 100%;
+        float: none;
+        height: 100%;
+    }
+    .we_are .tab_right_content{
+        padding: 30px 15px;
+    }
+    .we_are .tab_right_content h3{
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+    .we_are .tab_right_content .outer_tab_area{
+        width: 100%;
+    }
+    .we_are .tab_right_content .who_click_tab ul li a{
+        font-size: 15px;
+        text-align: left;
+    }
+    .we_are .tab_right_content .who_click_tab ul li a i img{
+        padding: 18px 0;
+        padding-top: 23px;
+    }
+    .we_are .tab_right_content .who_click_tab{
+        border-bottom: 0px;
+        overflow: scroll;
+        margin-top: 0px;
+    }
+    .we_are .tab_right_content .who_click_tab ul{
+        display: flex;
+        justify-content: flex-start;
+        width: 695px;
+    }
+    .we_are .tab_right_content .who_click_tab ul.set_up li{
+        padding-bottom: 5px;
+        border-bottom: 0px;
+        float: none;
+        width: auto!important;
+        margin-bottom: 5px;
+    }
+    .we_are .tab_right_content .who_click_tab ul li a i{
+        margin: 0px;
+    }
+    .our_service .service_outer_box.core_value_fourbox .service_blue_box.hight_ad{
+        height: auto;
+        padding: 30px 0 30px 0;
+    }
+    .v_added ul .slick-prev{
+        left: 0px;
+        width: 40px;
+        height: 40px;
+    }
+    .v_added ul .slick-next{
+        right: 0px;
+        width: 40px;
+        height: 40px;
+    }
+    .v_added ul .slick-prev::before{
+        padding: 20px;
+    }
+    .v_added ul .slick-next::before{
+        padding: 25px;
+    }
+    
+    /*********** We are sec end ***********************/
+    
+    /*********** Our merits sec start *****************/
+    
+    .merits{
+        margin-top: 30px;
+    }
+    .merits h2{
+        padding-bottom: 15px;
+        font-size: 32px;
+    }
+    .merits .merits_content ul li{
+        padding-bottom: 20px;
+    }
+    .merits .merits_content ul li:last-child{
+        padding-bottom: 0px;
+    }
+    .merits .merits_content{
+        padding-left: 0px;
+    }
+    .merits .merits_content ul li img{
+        margin-bottom: 0px;
+    }
+    .merits .merits_content ul li p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    /*********** Our merits sec end *******************/
+    
+    /*********** CEO sec start ************************/
+    
+    .ceo{
+        margin-top: 15px;
+    }
+    .ceo h2{
+        font-size: 32px;
+    }
+    .ceo ul li .ceo_message::after{
+        display: none;
+    }
+    .ceo ul li .ceo_message::before{
+        display: none;
+    }
+    .ceo ul li .ceo_message p{
+        width: 100%;
+        padding-bottom: 15px;
+        padding-top: 28px;
+    }
+    .ceo ul .slick-prev{
+        display: none !important;
+    }
+    .ceo ul .slick-next{
+        display: none !important;
+    }
+    .ceo ul li .ceo_message span.clint_position{
+        text-align: center;
+    }
+    .ceo ul li .ceo_message p.ali{
+        padding-bottom: 5px;
+    }
+    
+    /*********** CEO sec end **************************/
+    
+    /********** Value added service sec start **************/
+    
+    .v_added h2{
+        font-size: 25px;
+    }
+    .v_added{
+        padding: 40px 0;
+    }
+    .v_added h2{
+        padding-bottom: 10px;
+    }
+    .v_added p{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    
+    /********** Value added service sec end ****************/
+    
+    /********************************************
+        About us inner page Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog sec Responsive start
+    ********************************************/
+    
+    .blog{
+        margin-top: 15px;
+    }
+    .blog .blog_box .blog_cap{
+        padding: 20px;
+    }
+    .blog .blog_box .blog_cap h3{
+        font-size: 18px;
+    }
+    .blog .blog_box .blog_cap p{
+        font-size: 14px;
+    }
+    .blog .blog_box .blog_cap ul li{
+        padding-bottom: 10px;
+    }
+    .blog ul.pagi{
+        margin: 15px 0 !important;
+    }
+    .blog .blog_center_pad{
+        padding: 0 15px;
+    }
+    .blog .blog_box .blog_image img{
+        width: 100%;
+    }
+    .blog ul.pagi li.prev{
+        padding: 3.5px 6px;
+    }
+    .blog ul.pagi li{
+        margin-right: 8px;
+    }
+    
+    /********************************************
+        Our Blog sec Responsive end
+    ********************************************/
+    
+    /********************************************
+        Our Blog Detail Responsive start
+    ********************************************/
+    
+    .blog_detail{
+        padding-top: 30px;
+    }
+    .blog_detail .left_detail{
+        margin-bottom: 30px;
+        padding: 40px 20px;
+    }
+    .blog_detail .left_detail h5{
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .blog_detail .left_detail p{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .blog_detail .left_detail .blog_con .bigg img{
+        padding-bottom: 15px;
+        height: 200px;
+    }
+    .blog_detail .left_detail .blog_con p{
+        padding-bottom: 0px;
+        font-size: 15px;
+    }
+    .blog_detail .left_detail .blog_con h5{
+        padding-top: 6px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .blog_detail .left_detail .blog_con ul li{
+        padding-bottom: 13px;
+    }
+    .blog_detail .right_form{
+        padding: 40px 20px;
+        margin-bottom: 30px;
+    }
+    .blog_detail .right_form h5{
+        font-size: 18px;
+    }
+    .blog_detail .right_form button{
+        padding: 12px 29px;
+    }
+    
+    /********************************************
+        Our Blog Detail Responsive end
+    ********************************************/
+    
+    /*******************************************
+        Business Setup in UAE Responsive start
+    *******************************************/
+    
+    .business{
+        padding-top: 15px;
+    }
+    .business .right_our_service .select_service_sec ul li{
+        padding: 14px 0px 14px 15px;
+    }
+    .business .right_our_service .select_service_sec ul li a{
+        font-size: 14px;
+    }
+    .business .business_left_zone .top_big_image{
+        height: 300px;
+        margin-bottom: 15px;
+    }
+    .business .business_left_zone h5{
+        font-size: 23px;
+        padding-bottom: 12px;
+    }
+    .business .business_left_zone p.small_heding{
+        font-size: 15px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+    .business .business_left_zone p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .business .business_left_zone h5.want{
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box{
+        padding: 30px 15px 0px 15px;
+    }
+    .business .right_our_service{
+        margin-top: -10px;
+    }
+    .business .right_our_service .select_service_sec{
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box h6{
+        padding: 15px 0;
+        font-size: 15px;
+        height: auto;
+    }
+    .business .business_left_zone .inner_service_box .inner_six_box a{
+        padding: 10px 35px;
+    }
+    .business .business_left_zone .inner_service_box{
+        padding-bottom: 15px;
+    }
+    .business_service{
+        margin-top: 15px;
+    }
+    .business_service h2{
+        padding-bottom: 7px;
+        font-size: 24px;
+    }
+    .business .right_our_service h5{
+        font-size: 24px;
+    }
+    .business_service p{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .business_service .servicbox ._imagebox{
+        height: 100%;
+        margin-bottom: 25px;
+    }
+    .business_service .servicbox .service_contentbox h5{
+        font-size: 18px;
+        width: 90%;
+        height: auto;
+    }
+    .business_service .servicbox .service_contentbox p{
+        padding-bottom: 17px;
+    }
+    .freezone{
+        margin: 15px 0;
+        padding-bottom: 50px;
+    }
+    .freezone ul li h5{
+        font-size: 18px;
+        padding-bottom: 0px;
+        line-height: 34px;
+    }
+    .freezone ul li span{
+        padding-bottom: 8px;
+        font-size: 16px;
+    }
+    .freezone ul li p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .freezone ul{
+        margin-left: 10%;
+    }
+    .freezone ul li .two_box{
+        width: 100%;
+        float: none;
+        padding-bottom: 0px;
+    }
+    .freezone ul li .two_box ul li{
+        font-size: 14px;
+    }
+    .freezone ul .slick-prev{
+        top: 92%;
+        left: 32%;
+    }
+    .freezone ul .slick-next{
+        top: 92%;
+    }
+    .outer_freezone_slider{
+        overflow: initial;
+    }
+    ._desktop{
+        display: none;
+    }
+    ._right14{
+        padding-right: 15px !important;
+        margin-bottom: 15px;
+    }
+    ._left0{
+        padding-left: 15px !important;
+    }
+    .freezone ul li{
+        padding-top: 25px;
+    }
+    .business_service .servicbox{
+        margin-bottom: 20px;
+    }
+    .business_service .servicbox .service_contentbox{
+        padding: 0 10px 25px 10px;
+    }
+    @media only screen and (min-width: 365px) and (max-width: 430px){
+        
+    .freezone ul .slick-prev{
+        top: 89%;
+        left: 40%;
+    }
+    .freezone ul .slick-next{
+        top: 89%;
+    }
+        
+    }
+    @media only screen and (min-width: 430px) and (max-width: 480px){
+        
+    .freezone ul .slick-prev{
+        top: 87%;
+        left: 48%;
+    }
+    .freezone ul .slick-next{
+        top: 87%;
+    }
+        
+    }
+   
+    
+    /*******************************************
+        Business Setup in UAE Responsive end
+    *******************************************/
+    
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive start
+    ******************************************************/
+    
+    .dubai_freezone{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .dubai_freezone h5{
+        padding-bottom: 10px;
+        font-size: 23px;
+        padding-left: 0px;
+    }
+    .dubai_freezone p{
+        padding-bottom: 15px;
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .freezone_limit{
+        padding-top: 15px;
+    }
+    .dubai_freezone .freezone_list{
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .freezone_limit h5{
+        padding-bottom: 10px;
+        font-size: 23px;
+        padding-left: 0px;
+    }
+    .freezone_limit p{
+        padding-bottom: 20px;
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .freezone_limit h6{
+        padding-top: 0px;
+        padding-left: 0px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .docu .inner_area{
+        padding: 0px;
+    }
+    .freezone_limit ul li{
+        padding-left: 0px;
+    }
+    .docu .inner_area h5{
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .docu .inner_area .freezone_bottom_sec ul li:last-child{
+        padding-bottom: 20px;
+    }
+    .docu .inner_area .regi{
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .docu .inner_area p.all_of{
+        padding: 0 0 15px 0;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .docu .inner_area .freezone_bottom_sec h6{
+        font-size: 18px;
+        padding-bottom: 15px;
+        padding-top: 10px;
+    }
+    .docu{
+        margin-top: 15px;
+    }
+    .dubai_freezone .freezone_slider{
+        padding-left: 0px;
+    }
+    .dubai_freezone .freezone_slider img{
+        height: 155px;
+    }
+    .docu .inner_area p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    
+    /******************************************************
+        Dubai Freezone Company Formation Responsive end
+    ******************************************************/
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive start
+    *****************************************************************/
+    
+    .llc_detail{
+        margin-top: 15px;
+    }
+    .llc_detail p{
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .llc_detail p span{
+        font-size: 14px;
+    }
+    .llc_detail .right_youtube_sec{
+        height: 280px;
+    }
+    .llc_detail p:last-child{
+        padding-bottom: 15px;
+    }
+    .llc_company p{
+        width: 100%;
+        padding-bottom: 12px;
+    }
+    .llc_company .company_info .company_detail_content{
+        padding: 12px 15px;
+    }
+    .llc_detail h5{
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+    .llc_company h2{
+        font-size: 21px;
+        padding-top: 15px;
+        padding-bottom: 8px;
+    }
+    .llc_company p.uae{
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+    .llc_company .company_info .company_imagebox{
+        height: 200px;
+    }
+    .las_t{
+        margin: 0px auto;
+    }
+    .llc_company .company_info{
+        margin-bottom: 15px;
+    }
+    .llc_company .company_info .company_sign{
+        width: 70px;
+        height: 70px;
+    }
+    .llc_company .company_info .company_sign img{
+        padding: 12px 17px;
+    }
+    .llc_company .company_info .company_detail_content h6{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .moreover{
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .moreover h2{
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 15px;
+    }
+    .moreover ul li{
+        padding-bottom: 8px;
+    }
+    
+    /*****************************************************************
+        Dubai Mainland LLC Company Formation Detail Responsive end
+    *****************************************************************/
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    .business .business_left_zone .lets_talk{
+        padding-left: 0px;
+        width: 100%;
+    }
+    .business .business_left_zone .lets_talk h6{
+        padding: 15px 0 20px 0;
+    }
+    .business .business_left_zone .lets_talk button{
+        margin-bottom: 60px;
+    }
+    
+    /*************************************************************
+        Mainland Company Formation In Dubai Responsive start
+    *************************************************************/
+    
+    /********************************************
+        Ajman Offshore Responsive start
+    ********************************************/
+    
+    .ajman{
+        padding: 30px 0 0 0;
+        background-size: cover;
+    }
+    .ajman .right_ajman_content h5{
+        font-size: 23px;
+        line-height: 36px;
+        padding-bottom: 5px;
+        padding-top: 15px;
+    }
+    .ajman .right_ajman_content p{
+        line-height: 28px;
+        font-size: 14px;
+    }
+    
+    
+    /********************************************
+        Ajman Offshore Responsive end
+    ********************************************/
+    
+    /********************************************
+        Offshore Overview Responsive start
+    ********************************************/
+    
+    .business .business_left_zone .list_advantage{
+        padding-bottom: 15px;
+    }
+    .off_service{
+        margin: 15px 0;
+    }
+    .off_service .overview_caption p{
+        width: 80%;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .off_service h2{
+        padding-bottom: 15px;
+        font-size: 24px;
+    }
+    .off_service .overview_imagebox{
+        height: 230px;
+        margin-bottom: 15px;
+    }
+    .off_service .overview_imagebox._oover{
+        margin-bottom: 0px;
+    }
+    
+    /********************************************
+        Offshore Overview Responsive end
+    ********************************************/
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive start
+    ******************************************************/
+    
+    .family_visa{
+        padding: 30px 0 0px 0;
+    }
+    .family_visa .top_big_image{
+        height: 250px;
+        margin-bottom: 15px;
+    }
+    .family_visa p{
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .family_visa h6{
+        padding-top: 0px;
+        font-size: 21px;
+    }
+    .family_visa h5{
+        padding-bottom: 10px;
+        font-size: 23px;
+    }
+    .family_visa ul li{
+        padding-bottom: 15px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .business_service.offshore_page.family_visa_inner_service{
+        padding-bottom: 15px;
+    }
+    
+    /*****************************************************
+        PRO Business Service Details  Responsive end
+    ******************************************************/
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    .pro_fourbox{
+        margin: 15px 0 0 0; 
+    }
+    .pro_fourbox .inner_four_box p{
+        width: 88%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .business_service.PRO_business_services{
+        padding-bottom: 0px;
+        margin-top: 0px;
+    }
+    .business.PRO_business_diamond_bg{
+        padding-bottom: 15px;
+    }
+    .pro_fourbox .inner_four_box{
+        margin-bottom: 15px;
+        padding: 15px 0 0 0;
+    }
+    @media only screen and (min-width: 481px) and (max-width: 575px){
+        .pro_fourbox .inner_four_box p{
+            width: 55%;
+            height: 97px;
+        }
+    }
+    
+    /*********************************************
+        PRO Business Service  Responsive start
+    *********************************************/
+    
+    /***********************************
+        Package  Responsive start
+    ***********************************/
+    
+    .package_set_up{
+        padding: 15px 0;
+    }
+    .package_set_up .package_right_content{
+        padding: 15px;
+    }
+    .package_set_up .left_no_padding{
+        padding-left: 15px;
+    }
+    .package_set_up .right_no_padding{
+        padding-right: 15px;
+    }
+    .package_set_up .package_right_content h3{
+        font-size: 26px;
+        line-height: 36px;
+        padding-bottom: 5px;
+    }
+    .package_set_up .package_right_content p{
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .package_set_up .package_right_content h5{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .service_package{
+        margin-top: 15px;
+    }
+    .service_package h2{
+        padding-bottom: 8px;
+        font-size: 19px;
+    }
+    .service_package .package_outer{
+        height: auto;
+    }
+    .why_hire{
+        padding: 15px 0 15px 0;
+    }
+    .why_hire h2{
+        font-size: 29px;
+    }
+    .why_hire span{
+        padding: 12px 0;
+        width: 100%;
+        font-size: 14px;
+    }
+    .why_hire ul li{
+        padding-bottom: 13px;
+        font-size: 14px;
+    }
+    .service_package .package_outer .shape p{
+        font-size: 20px;
+        padding: 30px 0 60px 0;
+        line-height: 30px;
+        width: 80%;
+    }
+    .service_package .package_outer .price_list ul li{
+        padding-bottom: 15px;
+    }
+    .service_package .package_outer .price_list span{
+        font-size: 25px;
+        padding: 0 0 15px 0;
+    }
+    .service_package .package_outer .price_list ul li p{
+        width: 80%;
+    }
+    .service_package .package_outer .price_list{
+        padding: 0 15px;
+    }
+    .service_package .package_outer .price_list ul li:nth-child(4n) p{
+        width: 60%;
+    }
+    .service_package .package_outer.pink_border{
+        margin-top: 15px;
+    }
+    .service_package .package_outer.sky_blue_border{
+        margin-top: 15px;
+    }
+    .service_package .package_outer.green_border{
+        margin-top: 15px;
+    }
+    .service_package .right_zero{
+        padding-right: 15px;
+    }
+    .service_package p{
+        padding-bottom: 15px;
+        font-size: 14px;
+        text-align: left;
+    }
+    @media only screen and (min-width: 575px) and (max-width: 640px){
+        .service_package .package_outer .shape p{
+            padding: 30px 0 70px 0;
+        }
+        .service_package .package_outer.green_border{
+            margin-top: 0px;
+        }
+        .service_package .package_outer .shape{
+            height: 208px;
+        }
+        .service_package .package_outer a.pin_k{
+            margin-top: 90px;
+        }
+    }
+    
+    
+    /***********************************
+        Package  Responsive end
+    ***********************************/
+    
+    /***********************************
+        FAQ  Responsive start
+    ***********************************/
+    
+    .faq{
+        padding: 15px 0;
+    }
+    .faq h5{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .accordion-body__contents{
+        padding: 15px;
+    }
+    .accordion-header{
+        display: flex;
+        padding: 24px 15px;
+    }
+    .accordion-header h6{
+        width: 100%;
+        line-height: 26px;
+    }
+    .accordion-body__contents p{
+        padding-bottom: 10px;
+    }
+    
+    
+    /***********************************
+        FAQ  Responsive end
+    ***********************************/
+    
+}
